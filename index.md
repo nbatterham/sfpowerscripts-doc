@@ -60,7 +60,7 @@ Of course you can, here are some advantages
 2. Eliminate waste, multiple hours are spend on creating these scripts across multiple projects
 3. Open Source, so fork it and contribute it back
 
-## What if there is an issue with the plugin?
+## What if there is an issue with the extension?
 
 Please create an issue, and I will try to rectify as soon as possible. Wile it being fixed, you can omit the particular task from the extension and resort to command line using simple scripts
 
