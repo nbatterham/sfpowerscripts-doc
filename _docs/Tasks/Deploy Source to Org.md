@@ -22,7 +22,7 @@ id: sfpowerscript-deploysourcetoorg-task
 
 version: 2.8.0
 
-**Input Variables \[Visual Designer Labels / Yaml variables\]**
+**Input Variables&nbsp; - Visual Designer Labels (Yaml variables)**
 
 * **Alias or username of the target org(target\_org)**
 
@@ -32,33 +32,31 @@ version: 2.8.0
 
   Leave it blank if the sfdx-project.json is in the root of the repository, else provide the folder directory containing the sfdx-project.json
 
-* **Username(username)**
+* **Source Directory to be deployed (source\_directory)**
 
-  Username for the authenticated user (available in both JWT and Credentials based authentication mode)
+  mention the source directory in your project directory that needs to be deployed
 
-* **clientid(clientid)**
+* **Validate Deployment, do not deploy (checkonly)&nbsp;**
 
-  OAuth client ID (sometimes called the consumer key) (available only in JWT based authentication mode)
+  Enable this for doing a validate only. Utilise this mechanism for Pull Request against Sandbox to validate the metadata
 
-* **Password(password)**
+  * Once enabling this the following action will be enabled, where a file such as .validationignore can be specified that can be used to ignore certain metadata during a validate only deployment.<br>This is needed to overcome certain salesforce quirks, where during a validate only deployment, it raise unwanted errors if your source contains say a metadata such as ApexTestSuite
 
-  Password for the authenticated user (available only in Credentials based authentication mode)
+  * ![](/uploads/deploy-source-to-org-validate-only-deployment.png){: width="800" height="147"}
 
-* **Security Token(securitytoken)**
+* **Wait Time (wait\_time)**
+
+  Time to wait for this execution to complete,after this set wait time&nbsp; the next task in the pipeline will be executed. It is recommended to provide sufficient wait time so that the command can be made into a synchronous execution
+
+* **Test Level (testlevel)**
 
   Security Token for this particular user, Security Token requirement can be removed by ensuring the particular user is allowed to connect to Salesforce from whitelisted IP ranges that include the IP ranges where Azure hosted agents will be executed. (available only in Credentials based authentication mode)
 
-* **Alias(alias)**
-
-  Alias of the org to be used in subsequent tasks (available in both JWT and Credentials based authentication mode)
-
-* **Authenticate this org as a DevHub(isdevhub)**
-
-  Enable this variable, if the org is to be authenticated as a DevHub, this is required incase this org is used in subsequent task to create a scratch org or to create an unlocked package (available in both JWT and Credentials based authentication mode)
-
 **Output Variables**
 
-None
+* **sfpowerkit\_deploysource\_id**
+
+This variable holds the id of the deployment, you can use the deployment id to pull reports or do any further action on subsequent tasks
 
 **Control Options**
 
@@ -66,7 +64,7 @@ None
 
 **Gotcha's**
 
-JWT based authentication is the preferred approach and it is intendended for CI/CD based non human authentication
+&nbsp;
 
 **Changelog**
 
