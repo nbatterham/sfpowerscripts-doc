@@ -4,25 +4,27 @@ category: Tasks
 order: 3
 ---
 
-This task is used to authenticate against a salesforce org to do the required further actions. The task supports authentication to org using JWT (recommended) or using username/password/security. The org can then further accessed by utilizing the provided alias. It is higly recommended to create a service user while using this task.
+This task is used to deploy/validate metadata which is in source format (newer format) to any org, be it a scratch org, sandbox or production. The task does the following things.
 
-To read more about JWT based authentication and to generate the private key files, please follow the instruction&nbsp;[here](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_auth_jwt_flow.htm).
+1. Converts the source directory to metadata using source:convert command
+2. Use mdapi:deploy to deploy/validate the converted metadata to an org
+3. Run any associated test runs supported along with the mdapi:deploy command
 
-&nbsp;
+You can read about mdapi:deploy command [here](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference_force_mdapi.htm) and understand the various options
 
-**Task Options**
 
-![](/images/Authenticate a Salesforce Org.png){: width="951" height="629"}
-![](/images/Authenticate a Salesforce Org using JWT.png){: width="951" height="629"}
-![](/images/Authenticate a Salesforce Org using Credentials.png){: width="951" height="629"}
+**Task Snapshot**
+
+![](/images/Deploy Source To Org.png){: width="951" height="629"}
+
 
 **Task Version and Details**
 
-id: sfpower-authenticateorg
+id: sfpowerscript-deploysourcetoorg-task
 
-version: 3.0.0
+version: 2.8.0
 
-**Input Variables [Visual Designer/Yaml variables]**
+**Input Variables [Visual Designer Labels / Yaml variables]**
 
 
 - **Authentication Method(method)**

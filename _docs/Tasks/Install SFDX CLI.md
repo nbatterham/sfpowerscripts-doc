@@ -8,6 +8,8 @@ This task is usually the first task of any pipeline you build using sfpowerscrip
 
 Please note this task is only supported only in Linux agents
 
+**Task Snapshot**
+
 ![](/images/Install SFDX CLI Task.PNG){: width="930" height="374"}
 
 **Task Version and Details**
@@ -16,7 +18,7 @@ id: sfpwowerkit-installsfdx-task
 
 version: 1.2.0
 
-**Input Variables [Visual Designer/Yaml variables]**
+**Input Variables [Visual Designer Labels / Yaml variables]**
 
 - **SFDX CLI Version (sfdx_cli_version)** 
     

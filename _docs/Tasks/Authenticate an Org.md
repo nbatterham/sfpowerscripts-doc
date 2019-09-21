@@ -10,7 +10,7 @@ To read more about JWT based authentication and to generate the private key file
 
 &nbsp;
 
-**Task Options**
+**Task Snapshot**
 
 ![](/images/Authenticate a Salesforce Org.png){: width="951" height="629"}
 ![](/images/Authenticate a Salesforce Org using JWT.png){: width="951" height="629"}
@@ -22,7 +22,7 @@ id: sfpower-authenticateorg
 
 version: 3.0.0
 
-**Input Variables [Visual Designer/Yaml variables]**
+**Input Variables [Visual Designer Labels / Yaml variables]**
 
 
 - **Authentication Method(method)**
