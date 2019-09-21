@@ -1,7 +1,7 @@
 ---
 title: Install SFDX CLI and SFPowerkit
-category: Devices
-order: 2
+category: Tasks
+order: 1
 ---
 
 This task is usually the first task of any pipeline you build using sfpowerscripts. It installs the SFDX CLI along with the open source extension '[sfpowerkit](https://github.com/Accenture/sfpowerkit)'.&nbsp;
