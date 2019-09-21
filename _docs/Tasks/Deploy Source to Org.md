@@ -12,11 +12,9 @@ This task is used to deploy/validate metadata which is in source format (newer f
 
 You can read about mdapi:deploy command [here](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference_force_mdapi.htm) and understand the various options
 
-
 **Task Snapshot**
 
 ![](/images/Deploy Source To Org.png){: width="951" height="629"}
-
 
 **Task Version and Details**
 
@@ -24,46 +22,39 @@ id: sfpowerscript-deploysourcetoorg-task
 
 version: 2.8.0
 
-**Input Variables [Visual Designer Labels / Yaml variables]**
+**Input Variables \[Visual Designer Labels / Yaml variables\]**
 
+* **Alias or username of the target org(target\_org)**
 
-- **Authentication Method(method)**
+  Provide the alias or username of the target org&nbsp; on which the source directory is to be deployed
 
-   The method to authenticate this org. Available methods are either using JWT or using Credentials (Username/Password/Security Token)
+* **SFDX Project directory that needs to be deployed (project\_directory)**
 
+  Leave it blank if the sfdx-project.json is in the root of the repository, else provide the folder directory containing the sfdx-project.json
 
-- **Secure File(jwt_key_file)**
+* **Username(username)**
 
-   Secure file containing the private key, used only if the authentication method is JWT based. Instructions to store the private key as a secure file are avaiable [here](https://docs.microsoft.com/en-us/azure/devops/pipelines/library/secure-files?view=azure-devops)
+  Username for the authenticated user (available in both JWT and Credentials based authentication mode)
 
-- **Username(username)**
+* **clientid(clientid)**
 
-   Username for the authenticated user (available in both JWT and Credentials based authentication mode)
+  OAuth client ID (sometimes called the consumer key) (available only in JWT based authentication mode)
 
+* **Password(password)**
 
-- **clientid(clientid)**
+  Password for the authenticated user (available only in Credentials based authentication mode)
 
-  OAuth client ID (sometimes called the consumer key) (available only in  JWT  based authentication mode)
+* **Security Token(securitytoken)**
 
-- **Password(password)**
+  Security Token for this particular user, Security Token requirement can be removed by ensuring the particular user is allowed to connect to Salesforce from whitelisted IP ranges that include the IP ranges where Azure hosted agents will be executed. (available only in Credentials based authentication mode)
 
-   Password for the authenticated user (available only in Credentials based authentication mode)
+* **Alias(alias)**
 
-- **Security Token(securitytoken)**
+  Alias of the org to be used in subsequent tasks (available in both JWT and Credentials based authentication mode)
 
-   Security Token for this particular user, Security Token requirement can be removed by ensuring the particular user  is allowed to connect to Salesforce from whitelisted IP ranges that include the IP ranges where Azure hosted agents will be executed. (available only in Credentials based authentication mode)
-
-- **Alias(alias)**
-
-   Alias of the org to be used in subsequent tasks (available in both JWT and Credentials based authentication mode)
-
-
-- **Authenticate this org as a DevHub(isdevhub)**
+* **Authenticate this org as a DevHub(isdevhub)**
 
   Enable this variable, if the org is to be authenticated as a DevHub, this is required incase this org is used in subsequent task to create a scratch org or to create an unlocked package (available in both JWT and Credentials based authentication mode)
-
-
-
 
 **Output Variables**
 
@@ -79,5 +70,4 @@ JWT based authentication is the preferred approach and it is intendended for CI/
 
 **Changelog**
 
-- 3.0.0  Initial Version 
-
+* 3\.0.0 Initial Version
