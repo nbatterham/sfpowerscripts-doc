@@ -16,8 +16,13 @@ To read more about JWT based authentication and to generate the private key file
 
 **Input Variables**
 
+
 **Output Variables**
 
+None
+
 **Control Options**
+
+None
 
 **Gotcha's**
