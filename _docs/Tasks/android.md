@@ -1,15 +1,19 @@
 ---
-title: Android
+title: Install SFDX CLI and SFPowerkit
 category: Devices
 order: 2
 ---
 
-Use ChatApp on all of your Android devices. Every version is supported.
+This task is usually the first task of any pipeline you build using sfpowerscripts. It installs the SFDX CLI along with the open source extension '[sfpowerkit](https://github.com/Accenture/sfpowerkit)'.&nbsp;
 
-To install ChatApp on your device:
+Please note this task is only supported only in Linux agents
 
-1. Open the Google Play Store
-2. Search for ChatApp
-3. Select **Install**
+![](/images/Install SFDX CLI Task.PNG){: width="930" height="374"}
 
-![](//placehold.it/800x600)
+**Input Variables**
+
+**Output Variables**
+
+**Gotcha's**
+
+&nbsp;
