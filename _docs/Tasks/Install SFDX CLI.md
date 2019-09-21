@@ -12,14 +12,18 @@ Please note this task is only supported only in Linux agents
 
 **Task Version and Details**
 
-sfpwowerkit-installsfdx-task
-1.2.0
+id: sfpwowerkit-installsfdx-task
 
-**Input Variables**
+version: 1.2.0
 
-- SFDX CLI Version
+**Input Variables [Visual Designer/Yaml variables]**
+
+- **SFDX CLI Version (sfdx_cli_version)** 
+    
      By default, the latest SFDX CLI version will be installed. You can override this by providing the version number found in [Salesforce CLI Release Notes](https://developer.salesforce.com/media/salesforce-cli/releasenotes.html)
-- SFPowerkit Version
+
+- **SFPowerkit Version (sfpowerkit_version)** 
+    
     By default, the latest SFPowerkit version will be installed. You can override this by providing the version number found in [SFPowerkit Release Notes](https://github.com/Accenture/sfpowerkit/releases)
 
 
@@ -34,6 +38,6 @@ None
 **Gotcha's**
 
 
-**Chanlelog**
+**Changelog**
 
 - 1.2.0  Initial Version 
