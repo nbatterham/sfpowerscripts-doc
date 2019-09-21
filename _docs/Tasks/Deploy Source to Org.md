@@ -68,4 +68,4 @@ None
 
 **Changelog**
 
-* 3\.0.0 Initial Version
+* 2\.8.0 Initial Version
