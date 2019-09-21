@@ -14,6 +14,9 @@ Please note this task is only supported only in Linux agents
 
 **Output Variables**
 
+
+**Control Options**
+
 **Gotcha's**
 
 &nbsp;
