@@ -1,5 +1,5 @@
 ---
-title: Create SFPowerscripts Source based Package 
+title: Create Source based Package 
 category: Packaging Tasks
 order: 2
 ---
@@ -20,7 +20,7 @@ version: 4.0.0
 
 * **Name of the package(package)**
 
- Provide a name of the package
+   Provide a name of the package
 
 * **the version number of the package to be created" (version\_number)**
 
