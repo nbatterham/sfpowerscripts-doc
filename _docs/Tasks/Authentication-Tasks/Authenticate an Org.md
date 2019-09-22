@@ -1,7 +1,7 @@
 ---
 title: Authenticate an Org
-category: Tasks
-order: 2
+category: Authentication-Tasks
+order: 1
 ---
 
 This task is used to authenticate against a salesforce org to do the required further actions. The task supports authentication to org using JWT (recommended) or using username/password/security. The org can then further accessed by utilizing the provided alias. It is higly recommended to create a service user while using this task.
