@@ -4,32 +4,11 @@ title: Overview
 
 SFPowerscripts is an Azure Pipelines Extension that converts Azure Pipelines into a CI/CD platform for Salesforce. The extension features the following tasks
 
-Please note this extension only works with the newer source format based repositories only.
+Please note this extension only works with the newer source format based repositories only and has only beeen tested in Microsoft Hosted Agent running Ubunutu 16.04
 
-## Authentication/Org Related Tasks
+This extension features a collection of tasks which either you can use individually in your current pipeline or use it to build a hihgly customizable CI/CD pipeline for Salesforce.
 
-- Authenticate a DevHub using JWT
-- Authenticate a Sandbox using JWT
-- Authenticate an Org using Username/Password/Security Token
-- Create/Delete a Scratch Org
-
-## Build/ Deployment Related Tasks
-
-- Deploy a source format based repo to an org (scratch org/sandbox/prod)
-- Create an unlocked package
-- Deploy an unlocked package to an org
-- Trigger Apex Test
-- Validate Apex Test Coverge of an org
-- Validate a Unlocked package for metadata coverage
-- Install all package dependencies of an unlocked package
-
-## Generic Utilities
-
- 
- - Install SFDX along with SFPowerkit Plugin
- - Increment Project Version Number similar to npm version patch, which can be utilized before an unlocked / source based packaging
- - Create a build artifact for unlocked/source based packaging, which can be utilized in Release Pipelines
- - Checkout a source based artifact from Git using PAT
+The docs provided in ths site will help you to understand these tasks in detail and how to build your pipelines in no time.
 
 
 ## What is it?
