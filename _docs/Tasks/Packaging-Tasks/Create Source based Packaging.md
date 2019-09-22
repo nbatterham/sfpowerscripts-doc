@@ -8,7 +8,7 @@ This task is used to create a build artifact for a source based repo (org deploy
 
 **Task Snapshot**
 
-![](/images/Create a new version of Source Package.png){: width="951" height="629"}
+
 
 **Task Version and Details**
 
