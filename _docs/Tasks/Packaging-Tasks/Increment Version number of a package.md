@@ -1,5 +1,5 @@
 ---
-title: Increment Version Number of a pckage
+title: Increment Version Number of a package
 category: Packaging Tasks
 order: 1
 ---
@@ -7,8 +7,6 @@ order: 1
 This task is used to increment the version number of the package version provided in sfdx-project.json for either an unlocked package or an org based deployment. Use the version number outputted by this task as input to the Create Package tasks, if you want the package number to be incremented during every package build pipeline trigger
 
 **Task Snapshot**
-
-
 
 **Task Version and Details**
 
@@ -24,7 +22,7 @@ version: 1.9.0
 
 * **Set the pipeline's build number to the the project's incremented version number" (set\_build\_number)**
 
- Check this flag, if the pipeline's build number to be updated with the incremented version,so its easy to undertand the job in Azure Pipeliens
+Check this flag, if the pipeline's build number to be updated with the incremented version,so its easy to undertand the job in Azure Pipeliens
 
 * **Create a commit of incremented sfdx-project.json" (commit\_changes)**
 
@@ -40,8 +38,7 @@ version: 1.9.0
 
 **Output Variables**
 
-
-* **sfpowerscripts_incremented_project_version**
+* **sfpowerscripts\_incremented\_project\_version**
 
 The output version as a result of running this task
 
