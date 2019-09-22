@@ -8,7 +8,7 @@ This task is a wrapper over sfpowerkit:package:dependencies:install command. It 
 
 **Task Snapshot**
 
-
+**![](/images/Install Package Dependencies.png){: width="822" height="501"}**
 
 **Task Version and Details**
 
@@ -22,18 +22,17 @@ version: 1.2.0
 
   Provide the alias or username of the target org&nbsp; on which the source directory is to be deployed
 
-* **Alias/Username of the devhub (devhub_alias)**
+* **Alias/Username of the devhub (devhub\_alias)**
 
   Provide the alias or username of the devhub which houses these unlocked packages
 
 * **Installation Keys"(keys)**
 
-  Installation key for key-protected packages in the dependencies (format is 1:MyPackage1Key 2: 3:MyPackage3Key... to allow some packages without installation key)
+  Installation key for key-protected packages in the dependencies (format is 1:MyPackage1Key 2: 3:MyPackage3Key… to allow some packages without installation key)
 
 * **Compile Apex from only the package (checkonly)&nbsp;**
 
   For unlocked packages only, specifies whether to compile all Apex in the org and package, or only the Apex in the package.
-
 
 * **Force Upgrade the package (forceinstall)**
 
