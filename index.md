@@ -6,7 +6,7 @@ SFPowerscripts is an Azure Pipelines Extension that converts Azure Pipelines int
 
 Please note this extension only works with the newer source format based repositories only and has only beeen tested in Microsoft Hosted Agent running Ubunutu 16.04
 
-This extension features a collection of tasks which either you can use individually in your current pipeline or use it to build a hihgly customizable CI/CD pipeline for Salesforce.
+This extension features a collection of tasks which either you can use individually in your current pipeline or use it to build a highly customizable CI/CD pipeline for Salesforce.
 
 The docs provided in ths site will help you to understand these tasks in detail and how to build your pipelines in no time.
 
