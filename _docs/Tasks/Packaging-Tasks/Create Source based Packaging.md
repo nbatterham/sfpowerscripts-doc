@@ -24,7 +24,7 @@ version: 4.0.0
 
 * **the version number of the package to be created" (version\_number)**
 
-  The format is major.minor.patch.buildnumber . This will override the build number mentioned in the sfdx-project.json, Try considering the use of Increment Version Number task before this task
+  The format is major.minor.patch.buildnumber . This will override the build number mentioned in the sfdx-project.json, Try considering the use of [Increment Version Number task](/Tasks/Packaging-Tasks/Increment%20Version%20number%20of%20a%20package/) before this task
 
 * **SFDX Project directory that needs to be deployed (project\_directory)**
 
