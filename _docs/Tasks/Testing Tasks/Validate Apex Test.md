@@ -1,6 +1,6 @@
 ---
 title: Validate Apex Test Coverage
-category: Org-Related-Tasks
+category: Test Related Tasks
 order: 5
 ---
 

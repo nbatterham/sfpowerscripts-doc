@@ -1,6 +1,6 @@
 ---
 title: Authenticate an Org
-category: Authentication-Tasks
+category: Common
 order: 1
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Deploy Source to Org
-category: Deployment-Tasks
+category: Deployment Tasks
 order: 1
 ---
 

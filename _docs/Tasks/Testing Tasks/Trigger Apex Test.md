@@ -1,6 +1,6 @@
 ---
 title: Trigger Apex Test
-category: Org-Related Tasks
+category: Test Related Tasks
 order: 1
 ---
 
