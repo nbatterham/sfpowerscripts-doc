@@ -6,11 +6,9 @@ order: 1
 
 This task is used to create a new version of a SFDX Unlocked Package. You can read more about unlocked packages [here](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_dev2gp.htm)
 
-
-
 **Task Snapshot**
 
-
+**![](/images/Create a new version of SFDX Package .png){: width="852" height="768"}**
 
 **Task Version and Details**
 
@@ -30,11 +28,11 @@ version: 3.1.0
 
 * **Tag of the package version(tag)**
 
- The Tag of the package version to be created
+The Tag of the package version to be created
 
-* **Config File Path(config_file_path)**
+* **Config File Path(config\_file\_path)**
 
-  Path in the current project directory containing  config file for the packaging org
+  Path in the current project directory containing config file for the packaging org
 
 * **Bypass Installation Key(installationkeybypass)**
 
@@ -52,10 +50,9 @@ version: 3.1.0
 
   Time to wait for this execution to complete,after this set wait time&nbsp; the next task in the pipeline will be executed. It is recommended to provide sufficient wait time so that the command can be made into a synchronous execution
 
-* **Create a build artifact with the package id  if the package creation is successful"(build_artifact_enabled)**
+* **Create a build artifact with the package id if the package creation is successful"(build\_artifact\_enabled)**
 
-  Check this flag to associate this version along with metadata details like   package_version_id ,sourceVersion and  repository_url as a build artifact associated with this build pipeline, which allows the build pipeline to be associated with a release pipeline
-    
+  Check this flag to associate this version along with metadata details like package\_version\_id ,sourceVersion and repository\_url as a build artifact associated with this build pipeline, which allows the build pipeline to be associated with a release pipeline
 
 **Output Variables**
 
@@ -73,4 +70,4 @@ Please ensure a package is created manually before utilizing this task, as this 
 
 **Changelog**
 
-* 3.1.0 Initial Version
+* 3\.1.0 Initial Version
