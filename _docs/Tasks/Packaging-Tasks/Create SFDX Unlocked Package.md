@@ -10,7 +10,7 @@ This task is used to create a new version of a SFDX Unlocked Package. You can re
 
 **Task Snapshot**
 
-![](/images/Create a new version of SFDX Package.png){: width="951" height="629"}
+
 
 **Task Version and Details**
 
