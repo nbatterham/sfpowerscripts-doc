@@ -8,6 +8,10 @@ This task is used to increment the version number of the package version provide
 
 **Task Snapshot**
 
+&nbsp;
+
+**![](/images/Increments Version Number of a package.png){: width="864" height="569"}**
+
 **Task Version and Details**
 
 id: sfpwowerscript-incrementversionnumber-task
