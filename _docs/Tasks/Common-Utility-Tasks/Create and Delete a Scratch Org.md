@@ -42,12 +42,21 @@ The root directory that contains the sfdx-project.json. In build pipelines you c
 
 **Output Variables**
 
-* **sfpowerscripts\_scratch\_org\_url** The url of the scratch org that was created
+* **sfpowerscripts\_scratch\_org\_url**
 
-* **ssfpowerscripts\_scratch\_org\_username** The username of the scratch org that was created
+ The url of the scratch org that was created
+
+* **sfpowerscripts\_scratch\_org\_username**
+
+ The username of the scratch org that was created
 
 **Control Options**
 
 **Gotcha's**
 
 Provide the repo path for the working directory in a releaase pipeline
+
+
+**Changelog**
+
+* 2.1.0 Initial Version
