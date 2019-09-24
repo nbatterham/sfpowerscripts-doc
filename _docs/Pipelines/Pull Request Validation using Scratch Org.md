@@ -1,5 +1,6 @@
 ---
 title: Pull Request Validation using Scratch  Org
+category: Pipelines
 order: 1
 ---
 
