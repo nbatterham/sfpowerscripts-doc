@@ -6,6 +6,8 @@ order: 1
 
 This pipeline demonstrates how you can build a pull request validation pipeline using scratch org. Here is a snapshot of the steps we have used to configure a pipeline. The intend of this pipeline is to validate a pull/merge request into the integration branch upon completion of a feature branch by developers.
 
+This pipeline is triggered on every pull request  raised against a develop/master branch depending on your git flow. 
+
 
 
 &nbsp;
