@@ -4,15 +4,17 @@ category: Pipelines
 order: 3
 ---
 
-This pipeline demonstrates how you can build a pull request validation pipeline using scratch org. Here is a snapshot of the steps we have used to configure a pipeline. The intend of this pipeline is to validate a pull/merge request into the integration branch upon completion of a feature branch by developers.
+This pipeline demonstrates how you can build a&nbsp;continous integration pipeline for if you are using&nbsp; an [org model of development](https://trailhead.salesforce.com/en/content/learn/modules/org-development-model)&nbsp; . Here is a&nbsp;snapshot of the steps we have used to configure a&nbsp;pipeline. The pipeline mimics creating a version number as in [Continous Integration (Unlocked Packaging) pipeline](/Pipelines/Continous%20Integration%20Unlocked%20Package%20Pipeline/) to simulate version based deployment in the release pipelines and create meaninguful dashboards
 
-This pipeline is triggered on every pull request raised against a develop/master branch depending on your git flow.
+This pipeline is triggered on every successfull completion of a&nbsp;feature branch into the develop/master branch. If the frequency is quite high, you can look into utilizing \\\[ci skip\\\] in front of the commit message to skip a&nbsp;trigger of this pipeline
 
 **Pipeline Snapshot**
 
-![](/images/PR Pipeline ScratchOrg.png){: width="1570" height="824"}
+**![](/images/Org Development CI Pipeline.png){: width="506" height="259"}**
 
-You can import and modify this pipeline using the file provide in the [link](https://github.com/azlamsalam/sfpowerscripts/blob/master/SamplePipelines/PR%20Source%20Format%20%5bScratch%20Orgs%5d%20using%20sfpowerscripts.json)
+&nbsp;
+
+You can import and modify this pipeline using the file provide in the [link](https://github.com/azlamsalam/sfpowerscripts/blob/master/SamplePipelines/Source%20Package%20Build%20using%20sfpowerscripts.json)
 
 **Tasks Involved**
 
