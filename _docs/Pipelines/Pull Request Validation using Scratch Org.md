@@ -8,7 +8,7 @@ This pipeline demonstrates how you can build a pull request validation pipeline 
 
 This pipeline is triggered on every pull request raised against a develop/master branch depending on your git flow.
 
-**Tasks Snapshot**
+**Pipeline Snapshot**
 
 ![](/images/PR Pipeline ScratchOrg.png){: width="1570" height="824"}
 
