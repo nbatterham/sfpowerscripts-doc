@@ -1,12 +1,13 @@
 ---
-title: Unlocked Package Release Pipeline
+title: Release Pipeline - Unlocked Package
 category: Pipelines
 order: 4
 ---
 
-This pipeline demonstrates how you can build a pull request validation pipeline using scratch org. Here is a snapshot of the steps we have used to configure a pipeline. The intend of this pipeline is to validate a pull/merge request into the integration branch upon completion of a feature branch by developers.
+Release pipelines are one of the most exciting benefits of using Azure Pipelines, which is not just for Continous Integration but can also act us an automated release orchestrator. This sample pipeline demonstrates how to orchestrate an installation of an unlocked package across various environments. 
 
-This pipeline is triggered on every pull request raised against a develop/master branch depending on your git flow.
+The pipeline is manually triggered by some one releasing a previously build artifact to the the environment. This could be automated using the various mechanisms available in Azure Pipelines
+
 
 **Pipeline Snapshot**
 
@@ -16,7 +17,7 @@ You can import and modify this pipeline using the file provide in the [link](htt
 
 **Tasks Involved**
 
-The steps that are part of this pipeline are (in the exact order)
+The steps that are part of the pipeline in an individual stage are
 
 1. [Install SFDX CLI](/Tasks/Common-Utility-Tasks/Install%20SFDX%20CLI/)
 2. [Validate Unlocked Package](/Tasks/Common-Utility-Tasks/Validate%20Unlocked%20Package/) ( Only necessary if you are building an unlocked package)

@@ -1,7 +1,7 @@
 ---
 title: Create/Delete a Scratch Org
-category: Common/Utility Tasks
-order: 6
+category: Tasks
+order: 3
 ---
 
 This task is used to create and delete a scratch org and mostly used in a Pull Request validation pipeline. The task is an exact wrapper over the sfdx force:org:create command.

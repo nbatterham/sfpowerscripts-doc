@@ -1,7 +1,7 @@
 ---
 title: Create a new version of SFDX Unlocked Package 
-category: Packaging Tasks
-order: 2
+category: Tasks
+order: 6
 ---
 
 This task is used to create a new version of a SFDX Unlocked Package. You can read more about unlocked packages [here](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_dev2gp.htm)

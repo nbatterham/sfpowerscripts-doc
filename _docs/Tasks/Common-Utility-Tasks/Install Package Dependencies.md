@@ -1,7 +1,7 @@
 ---
 title: Install Package Dependencies
-category: Common/Utility Tasks
-order: 3
+category: Tasks
+order: 5
 ---
 
 This task is a wrapper over sfpowerkit:package:dependencies:install command. It is used to install any unlocked or managed package dependencies for an unlocked package

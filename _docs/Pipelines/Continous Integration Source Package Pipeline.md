@@ -1,5 +1,5 @@
 ---
-title: Continous Integration  ( Org  based)  Pipeline
+title: Continous Integration Pipeline - Org Based
 category: Pipelines
 order: 3
 ---

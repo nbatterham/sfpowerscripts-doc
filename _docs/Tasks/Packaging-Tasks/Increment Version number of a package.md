@@ -1,7 +1,7 @@
 ---
 title: Increment Version Number of a package
-category: Packaging Tasks
-order: 1
+category: Tasks
+order: 8
 ---
 
 This task is used to increment the version number of the package version provided in sfdx-project.json for either an unlocked package or an org based deployment. Use the version number outputted by this task as input to the Create Package tasks, if you want the package number to be incremented during every package build pipeline trigger

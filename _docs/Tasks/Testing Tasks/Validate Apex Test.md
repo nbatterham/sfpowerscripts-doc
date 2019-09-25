@@ -1,7 +1,7 @@
 ---
 title: Validate Apex Test Coverage
-category: Test Related Tasks
-order: 5
+category: Tasks
+order: 13
 ---
 
 This task is used to validate the apex test coverage of an org

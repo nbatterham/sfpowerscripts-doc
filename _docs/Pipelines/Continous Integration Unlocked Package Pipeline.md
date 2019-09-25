@@ -1,5 +1,5 @@
 ---
-title: Continous Integration (Unlocked Package) Pipeline
+title: Continous Integration Pipeline - Unlocked Package
 category: Pipelines
 order: 2
 ---

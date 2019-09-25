@@ -1,7 +1,7 @@
 ---
 title: Trigger Apex Test
-category: Test Related Tasks
-order: 1
+category: Tasks
+order: 12
 ---
 
 This task is used to trigger apex tests in an org

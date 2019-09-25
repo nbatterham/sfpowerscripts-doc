@@ -1,7 +1,7 @@
 ---
 title: Checkout a build artifact
-category: Deployment Tasks
-order: 1
+category: Tasks
+order: 9
 ---
 
 This task is used to checkout the code to a particular commit id from a GIT repo (using Basic Authentication over HTTPS ) as mentioned in the build artifact produced by Created Source Based Packaging Task. This task is used in a release pipeline for a Source based deployment. The repo URL and commit id are already stored in the artifact produced by Packaging Tasks

@@ -1,7 +1,7 @@
 ---
 title: Deploy a Source Repo to Org
-category: Deployment Tasks
-order: 2
+category: Tasks
+order: 10
 ---
 
 This task is used to deploy/validate metadata which is in source format (newer format) to any org, be it a scratch org, sandbox or production. The task does the following things.
