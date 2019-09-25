@@ -21,4 +21,4 @@ You can import and modify this pipeline using the file provide in the [link](htt
 The steps that are part of this pipeline are (in the exact order)
 
 3. [Increment the version number](/Tasks/Packaging-Tasks/Increment%20Version%20number%20of%20a%20package/) ( optional step, if you want to increment the build number or any segment number)
-4. [Create a new version of the unlocked package](/Tasks/Packaging-Tasks/Create%20Source%20based%20Packaging/)
+4. [Create a new version of the source package](/Tasks/Packaging-Tasks/Create%20Source%20based%20Packaging/)
