@@ -4,7 +4,9 @@ category: Pipelines
 order: 1
 ---
 
-This pipeline demonstrates how you can build a pull request validation pipeline using scratch org. Here is a snapshot of the steps we have used to configure a pipeline.
+This pipeline demonstrates how you can build a pull request validation pipeline using scratch org. Here is a snapshot of the steps we have used to configure a pipeline. The intend of this pipeline is to validate a pull/merge request into the integration branch upon completion of a feature branch by developers.
+
+
 
 &nbsp;
 
@@ -14,4 +16,15 @@ You can import and modify this pipeline using the file provide in the [link](htt
 
 **Tasks Involved**
 
-**Variables to be set**
+The steps that are part of this pipeline are (in the exact order)
+
+1. Install SFDX CLI 
+2. Validate Unlocked Package ( Only necessary if you are building an unlocked package)
+3. Authenticate an Org ( In this case, it is authenticating against DevHub)
+4. Create/Delete a scratch org ( Action :Create)
+5. Deploy source to scratch org ( Deploy)
+6. Trigger Apex Tests in the scratch org
+7. Validate the apex test coverage in the org
+8. Create/Delete a scratch org (Action :Delete)
+
+
