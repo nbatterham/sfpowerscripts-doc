@@ -4,13 +4,15 @@ category: Pipelines
 order: 2
 ---
 
-This pipeline demonstrates how you can build a continous integration pipeline for an unlocked package. Here is a snapshot of the steps we have used to configure a pipeline. 
+This pipeline demonstrates how you can build a continous integration pipeline for an unlocked package. Here is a snapshot of the steps we have used to configure a pipeline.
 
-This pipeline is triggered on every successfull completion of a feature branch into the develop/master branch. If the frequency is quite high, you can look into utilizing [ci skip] in front of the commit message to skip a trigger of this pipeline
+This pipeline is triggered on every successfull completion of a feature branch into the develop/master branch. If the frequency is quite high, you can look into utilizing \[ci skip\] in front of the commit message to skip a trigger of this pipeline
 
 **Pipeline Snapshot**
 
-![](/images/PR Pipeline ScratchOrg.png){: width="1570" height="824"}
+**![](/images/Unlocked Package CI Pipeline.png){: width="510" height="320"}**
+
+&nbsp;
 
 You can import and modify this pipeline using the file provide in the [link](https://github.com/azlamsalam/sfpowerscripts/blob/master/SamplePipelines/Unlocked%20Package%20Build%20using%20sfpowerscript.json)
 
@@ -19,10 +21,6 @@ You can import and modify this pipeline using the file provide in the [link](htt
 The steps that are part of this pipeline are (in the exact order)
 
 1. [Install SFDX CLI](/Tasks/Common-Utility-Tasks/Install%20SFDX%20CLI/)
-2. [Validate Unlocked Package](/Tasks/Common-Utility-Tasks/Validate%20Unlocked%20Package/) ( Only necessary if you are building an unlocked package)
-3. [Authenticate an Org](/Tasks/Common-Utility-Tasks/Authenticate%20an%20Org/)( In this case, it is authenticating against DevHub)
-4. [Create/Delete a scratch org](/Tasks/Common-Utility-Tasks/Create%20and%20Delete%20a%20Scratch%20Org/)( Action :Create)
-5. [Deploy source to scratch org](/Tasks/Deployment-Tasks/Deploy%20Source%20to%20Org/) ( Deploy)
-6. [Trigger Apex Tests in the scratch org](/Tasks/Testing%20Tasks/Trigger%20Apex%20Test/)
-7. [Validate the apex test coverage in the org](/Tasks/Testing%20Tasks/Validate%20Apex%20Test/)
-8. [Create/Delete a scratch org](/Tasks/Common-Utility-Tasks/Create%20and%20Delete%20a%20Scratch%20Org/)(Action :Delete)
+2. [Authenticate an Org](/Tasks/Common-Utility-Tasks/Authenticate%20an%20Org/)( In this case, it is authenticating against DevHub)
+3. [Increment the version number](/Tasks/Packaging-Tasks/Increment%20Version%20number%20of%20a%20package/) ( optional step, if you want to increment the build number or any segment number)
+4. [Create a new version of the unlocked package](/Tasks/Packaging-Tasks/Create%20Source%20based%20Packaging/)
