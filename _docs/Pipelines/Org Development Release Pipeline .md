@@ -1,28 +1,32 @@
 ---
-title: Release Pipeline - Source Package
+title: Release Pipeline - Org Development
 category: Pipelines
 order: 4
 ---
 
-This pipeline demonstrates how you can build a pull request validation pipeline using scratch org. Here is a snapshot of the steps we have used to configure a pipeline. The intend of this pipeline is to validate a pull/merge request into the integration branch upon completion of a feature branch by developers.
+Release pipelines are one of the most exciting benefits of using Azure Pipelines, which is not just for Continous Integration but can also act us an automated release orchestrator. This sample pipeline demonstrates how to orchestrate during an org wide development model. We simulate the creation of an build artifact utilizing the  Continous Integration Pipeline - Org Based
 
-This pipeline is triggered on every pull request raised against a develop/master branch depending on your git flow.
+The pipeline is manually triggered by some one releasing a previously build artifact to the the environment. This could be automated using the various mechanisms available in Azure Pipelines
 
 **Pipeline Snapshot**
 
-![](/images/PR Pipeline ScratchOrg.png){: width="1570" height="824"}
+**![](/images/Unlocked Packages CD Pipeline.PNG){: width="1305" height="455"}**
 
-You can import and modify this pipeline using the file provide in the [link](https://github.com/azlamsalam/sfpowerscripts/blob/master/SamplePipelines/PR%20Source%20Format%20%5bScratch%20Orgs%5d%20using%20sfpowerscripts.json)
+&nbsp;
 
-**Tasks Involved**
+You can import and modify this pipeline using the file provide in the [link](https://github.com/azlamsalam/sfpowerscripts/blob/master/SamplePipelines/Source%20Package%20Deployment%20Pipeline%20using%20sfpowerscripts.json)
 
-The steps that are part of this pipeline are (in the exact order)
+**Tasks Snapshot in one of the stages**
+
+**![](/images/Unlocked Package CD Pipeline Tasks.png){: width="505" height="345"}**
+
+The steps that are part of the pipeline in an individual stage are
 
 1. [Install SFDX CLI](/Tasks/Common-Utility-Tasks/Install%20SFDX%20CLI/)
-2. [Validate Unlocked Package](/Tasks/Common-Utility-Tasks/Validate%20Unlocked%20Package/) ( Only necessary if you are building an unlocked package)
-3. [Authenticate an Org](/Tasks/Common-Utility-Tasks/Authenticate%20an%20Org/)( In this case, it is authenticating against DevHub)
-4. [Create/Delete a scratch org](/Tasks/Common-Utility-Tasks/Create%20and%20Delete%20a%20Scratch%20Org/)( Action :Create)
-5. [Deploy source to scratch org](/Tasks/Deployment-Tasks/Deploy%20Source%20to%20Org/) ( Deploy)
-6. [Trigger Apex Tests in the scratch org](/Tasks/Testing%20Tasks/Trigger%20Apex%20Test/)
-7. [Validate the apex test coverage in the org](/Tasks/Testing%20Tasks/Validate%20Apex%20Test/)
-8. [Create/Delete a scratch org](/Tasks/Common-Utility-Tasks/Create%20and%20Delete%20a%20Scratch%20Org/)(Action :Delete)
+2. [Authenticate an Org](/Tasks/Common-Utility-Tasks/Authenticate%20an%20Org/)( In this case, it is authenticating against DevHub)
+3. [Authenticate an Org](/Tasks/Common-Utility-Tasks/Authenticate%20an%20Org/)( In this case, it is authenticating against the Sandbox to be deployed)
+4. [Install a version of the unlocked package to the target environment](/Tasks/Deployment-Tasks/Install%20an%20Unlocked%20Package/)
+
+It is recommended to have a variable group created per environment,such as in the figure and associate it with each stage of the pipeline
+
+![](/images/variable_group_for_envs.png){: width="812" height="440"}

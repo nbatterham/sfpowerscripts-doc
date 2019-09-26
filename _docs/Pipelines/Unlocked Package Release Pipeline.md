@@ -16,7 +16,7 @@ The pipeline is manually triggered by some one releasing a previously build arti
 
 You can import and modify this pipeline using the file provide in the [link](https://github.com/azlamsalam/sfpowerscripts/blob/master/SamplePipelines/Unlocked%20Packaged%20Deployment%20Pipeline%20using%20sfpowerscripts.json)
 
-**Tasks Snapshot inone of the stages**
+**Tasks Snapshot in one of the stages**
 
 **![](/images/Unlocked Package CD Pipeline Tasks.png){: width="505" height="345"}**
 
