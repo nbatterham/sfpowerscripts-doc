@@ -27,4 +27,6 @@ The steps that are part of the pipeline in an individual stage are
 3. [Authenticate an Org](/Tasks/Common-Utility-Tasks/Authenticate%20an%20Org/)( In this case, it is authenticating against the Sandbox to be deployed)
 4. [Install a version of the unlocked package to the target environment](/Tasks/Deployment-Tasks/Install%20an%20Unlocked%20Package/)
 
-It is recommended to have a variable group created per environment
+It is recommended to have a variable group created per environment,such as in the figure and associate it with each stage of the pipeline
+
+![](/images/variable_group_for_envs.png){: width="812" height="440"}
