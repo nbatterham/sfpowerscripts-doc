@@ -1,13 +1,12 @@
 ---
 title: Release Pipeline - Unlocked Package
 category: Pipelines
-order: 4
+order: 3
 ---
 
-Release pipelines are one of the most exciting benefits of using Azure Pipelines, which is not just for Continous Integration but can also act us an automated release orchestrator. This sample pipeline demonstrates how to orchestrate an installation of an unlocked package across various environments. 
+Release pipelines are one of the most exciting benefits of using Azure Pipelines, which is not just for Continous Integration but can also act us an automated release orchestrator. This sample pipeline demonstrates how to orchestrate an installation of an unlocked package across various environments.
 
 The pipeline is manually triggered by some one releasing a previously build artifact to the the environment. This could be automated using the various mechanisms available in Azure Pipelines
-
 
 **Pipeline Snapshot**
 
