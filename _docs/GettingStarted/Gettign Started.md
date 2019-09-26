@@ -16,3 +16,7 @@ Here is how to get started with SFPowerscripts.
 
 
 Please note SFPowerscripts is only tested against Microsoft Hosted Agent running Ubuntu 16.04. If you would like to contribute to the extension to ensure it is cross platform, please contribute to the repo in Github.
+
+It is recommended to have a variable group created per environment,such as in the figure and associate it with each stage of the pipeline
+
+![](/images/variable_group_for_envs.png){: width="812" height="440"}
