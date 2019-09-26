@@ -14,5 +14,7 @@ Here is how to get started with SFPowerscripts.
 
 4. If there are multiple teams actively involved and you are following an unlocked package based development model, it is recommended to have a hosted agent per active team
 
+5. Create a variable group per environment and attach this variable groups to the pipelines
+
 
 Please note SFPowerscripts is only tested against Microsoft Hosted Agent running Ubuntu 16.04. If you would like to contribute to the extension to ensure it is cross platform, please contribute to the repo in Github.
