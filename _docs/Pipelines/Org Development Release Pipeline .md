@@ -1,5 +1,5 @@
 ---
-title: Source Package Release Pipeline
+title: Release Pipeline - Source Package
 category: Pipelines
 order: 4
 ---
