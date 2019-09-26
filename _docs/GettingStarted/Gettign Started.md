@@ -16,5 +16,7 @@ Here is how to get started with SFPowerscripts.
 
 5. Create a variable group per environment and attach this variable groups to the pipelines
 
+![](/images/variable_group_for_envs.png){: width="812" height="440"}
+
 
 Please note SFPowerscripts is only tested against Microsoft Hosted Agent running Ubuntu 16.04. If you would like to contribute to the extension to ensure it is cross platform, please contribute to the repo in Github.
