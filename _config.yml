@@ -4,16 +4,16 @@
 title: sfpowerscripts
 url:  http://www.sfpowerscripts.com
 baseurl:
-google_analytics_key:
+google_analytics_key: UA-148812989-1
 show_full_navigation: true
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
 description: SFPowerscripts - CI/CD for Salesforce utilizing Azure Pipelines
 author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
+  name: Azlam Abdulsalam
+  email: azlamnet@gmail.com
+  twitter: azlus
 social:
   name: 
   links:
