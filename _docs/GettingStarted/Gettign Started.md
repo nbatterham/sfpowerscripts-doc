@@ -26,9 +26,9 @@ Here is how to get started with SFPowerscripts the easiest way utilizing
 
 ![](/images/choose private template.png){: width="1429" height="679"}
 
-8\. Click on Create Project and wait for the project to be completed
+8. Click on Create Project and wait for the project to be completed
 
-9\. Navigate to the newly craeted project
+9. Navigate to the newly craeted project
 
 10. Confirm the build and release pipelines are created, start modifying the following for the pipelines to wprk
 
