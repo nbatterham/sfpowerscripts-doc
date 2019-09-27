@@ -28,16 +28,16 @@ Here is how to get started with SFPowerscripts the easiest way utilizing
 
 8\. Click on Create Project and wait for the project to be completed
 
-9\. Navigate to the newly craeted projec
+9\. Navigate to the newly craeted project
 
-1. Confirm the build and release pipelines are created, start modifying the following for the pipelines to wprk
+10. Confirm the build and release pipelines are created, start modifying the following for the pipelines to wprk
 
    * Repostories
 
-* Environment Credentials
+   * Environment Credentials
 
-It is recommended to have a variable group created per environment,such as in the figure and associate it with each stage of the pipeline
+     It is recommended to have a variable group created per environment,such as in the figure and associate it with each stage of the pipeline
 
 ![](/images/variable_group_for_envs.png){: width="812" height="440"}
 
-* Setting up connnected app authentication, the current pipeline is authenticated using credentials, it is better to set it up using JWT, To read more about JWT based authentication and to generate the private key files, please follow the instruction&nbsp;[here](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_auth_jwt_flow.htm) and follow the instructions for the auth task here
+   * Setting up connnected app authentication, the current pipeline is authenticated using credentials, it is better to set it up using JWT, To read more about JWT based authentication and to generate the private key files, please follow the instruction&nbsp;[here](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_auth_jwt_flow.htm) and follow the instructions for the auth task here
