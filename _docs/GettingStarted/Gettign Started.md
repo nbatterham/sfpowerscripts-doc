@@ -22,6 +22,10 @@ Here is how to get started with SFPowerscripts the easiest way utilizing
 
 7\. Choose github and mention the following url [https://raw.githubusercontent.com/azlamsalam/sfpowerscripts/master/SamplePipelines/sfpowerscripts-sample-pipelines.zip](https://raw.githubusercontent.com/azlamsalam/sfpowerscripts/master/SamplePipelines/sfpowerscripts-sample-pipelines.zip)
 
+&nbsp;
+
+![](/images/choose private template.png){: width="1429" height="679"}
+
 8\. Click on Create Project and wait for the project to be completed
 
 9\. Navigate to the newly craeted projec
