@@ -30,7 +30,7 @@ For eg: a Pull Request validation for an unlocked package should feature the tas
 
 * Though the tasks can all be utilized fully in build pipeline. It is recommended to utilize the Release Pipeline to deploy the artifats to make the full use of Azure Pipelines Capability.
 
-## Why do I have to use this? Can't I script it out?
+## Why do I have to use this? Can’t I script it out?
 
 Of course you can, here are some advantages
 
@@ -40,4 +40,4 @@ Of course you can, here are some advantages
 
 ## What if there is an issue with the extension?
 
-Please create an issue, and I will try to rectify as soon as possible. Wile it being fixed, you can omit the particular task from the extension and resort to command line using simple scripts
+Please create an issue in the [Github repo](https://github.com/azlamsalam/sfpowerscripts), and I will try to rectify as soon as possible. Wile it being fixed, you can omit the particular task from the extension and resort to command line using simple scripts
