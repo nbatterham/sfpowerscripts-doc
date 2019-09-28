@@ -1,7 +1,5 @@
 ---
 title: Getting Started 
-category: Getting Started
-order: 1
 ---
 
 Here is how to get started with SFPowerscripts, if you want to explore the whole sample pipelines is  utilizing Azure Devops Demo Generator. If you are already experienced with Azure Pipelines, skip these steps and directly import the sample pipelines once the extension is installed.
