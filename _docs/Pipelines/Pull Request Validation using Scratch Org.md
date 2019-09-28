@@ -12,7 +12,7 @@ This pipeline is triggered on every pull request raised against a develop/master
 
 ![](/images/PR Pipeline ScratchOrg.png){: width="1570" height="824"}
 
-You can import and modify this pipeline using the file provide in the [link](https://github.com/azlamsalam/sfpowerscripts/blob/master/SamplePipelines/PR%20Source%20Format%20%5bScratch%20Orgs%5d%20using%20sfpowerscripts.json)
+You can import and modify this pipeline using the file provide in the [link](https://raw.githubusercontent.com/azlamsalam/sfpowerscripts/master/SamplePipelines/PR%20Source%20Format%20%5BScratch%20Orgs%5D%20using%20sfpowerscripts.json)
 
 **Tasks Involved**
 

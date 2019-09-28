@@ -14,7 +14,7 @@ This pipeline is triggered on every successfull completion of a feature branch i
 
 &nbsp;
 
-You can import and modify this pipeline using the file provide in the [link](https://github.com/azlamsalam/sfpowerscripts/blob/master/SamplePipelines/Unlocked%20Package%20Build%20using%20sfpowerscript.json)
+You can import and modify this pipeline using the file provide in the [link](https://raw.githubusercontent.com/azlamsalam/sfpowerscripts/master/SamplePipelines/Unlocked%20Package%20Build%20using%20sfpowerscript.json)
 
 **Tasks Involved**
 
