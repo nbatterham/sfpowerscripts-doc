@@ -44,6 +44,13 @@
 						<a href="{{ site.baseurl }}/">{{ home.title }}</a>
 					</li>
 				</ul>
+				
+				<ul>
+					<li class="nav-item top-level {% if page.url == '/gettingstarted/' %}current{% endif %}">
+						{% assign gettingstarted = site.html_pages | where: 'url', '/gettingstarted/' | first %}
+						<a href="{{ site.baseurl }}/gettingstarted/">{{ gettingstarted.title }}</a>
+					</li>
+				</ul>
 
 				<ul>
 					{% assign grouped = site.docs | group_by: 'category' %}
