@@ -18,3 +18,7 @@ This task is used to validate the metadata coverage of components that are part 
 **Control Options**
 
 **Gotcha's**
+
+**Changelog**
+
+- 2.0.0  Updated for inclusion of bypass option from sfpowerkit
