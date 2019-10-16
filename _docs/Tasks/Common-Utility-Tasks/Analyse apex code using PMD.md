@@ -8,7 +8,15 @@ This task is used to run a static analyis of the apex classes in a project direc
 
 **Task Snapshot**
 
-**![](/images/Create or Delete a scratchorg.png){: width="832" height="519"}**
+**![](/images/Analyze apex classes using pmd .png){: width="929" height="587"}**
+
+This task attaches the code analysis result into the build artifacts and also provides a timeline update in the build summary page
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 **Task Version and Details**
 
@@ -18,13 +26,13 @@ version: 2.1.0
 
 **Input Variables**
 
-* **Source directory that needs to be analyzed(directory)** 
+* **Source directory that needs to be analyzed(directory)**
 
 The directory that needs to be analyzed, If ignored, the sfpowerkit plugin will pickup the default directory mentioned in the sfdx-project.json.
 
 * **Select the ruleset to be used for analysis(ruleset)**
 
-sfpowerkit comes with a default ruleset, Select the picklist  to 'custom' if you want to utilize your own ruleset
+sfpowerkit comes with a default ruleset, Select the picklist to 'custom' if you want to utilize your own ruleset
 
 * **Path to the ruleset(rulesetpath)**
 
@@ -48,13 +56,10 @@ Select this option if you want the build to be failed, if PMD observes any criti
 
 **Output Variables**
 
-
 **Control Options**
 
 **Gotcha's**
 
-
-
 **Changelog**
 
-* 3.1.0 Initial Version
+* 3\.1.0 Initial Version
