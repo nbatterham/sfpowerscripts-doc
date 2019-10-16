@@ -12,7 +12,7 @@ This task is used to run a static analyis of the apex classes in a project direc
 
 This task attaches the code analysis result into the build artifacts and also provides a timeline update in the build summary page
 
-&nbsp;
+![](/images/Build Analysis Summary.PNG){: width="1509" height="667"}
 
 &nbsp;
 
