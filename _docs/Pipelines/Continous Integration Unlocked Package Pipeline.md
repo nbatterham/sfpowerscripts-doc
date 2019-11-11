@@ -23,4 +23,6 @@ The steps that are part of this pipeline are (in the exact order)
 1. [Install SFDX CLI](/Tasks/Common-Utility-Tasks/Install%20SFDX%20CLI/)
 2. [Authenticate an Org](/Tasks/Common-Utility-Tasks/Authenticate%20an%20Org/)( In this case, it is authenticating against DevHub)
 3. [Increment the version number](/Tasks/Packaging-Tasks/Increment%20Version%20number%20of%20a%20package/) ( optional step, if you want to increment the build number or any segment number)
-4. [Create a new version of the unlocked package](/Tasks/Packaging-Tasks/Create%20Source%20based%20Packaging/)
+4. [Create a new version of the unlocked package](/Tasks/Packaging-Tasks/Create%20SFDX%20Unlocked%20Package/)
+
+**Pipeline Trigger**<br><br>This pipeline need to be enabled only with CI triggers, PR triggers for pipeline should be disabled. Follow this&nbsp; documentation to enable this CI trigger using this [link](https://docs.microsoft.com/en-us/azure/devops/pipelines/build/triggers?view=azure-devops&amp;tabs=classic)
