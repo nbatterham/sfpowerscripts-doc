@@ -27,6 +27,6 @@ The steps that are part of this pipeline are (in the exact order)
 7. [Validate the apex test coverage in the org](/Tasks/Testing%20Tasks/Validate%20Apex%20Test/)
 8. [Create/Delete a scratch org](/Tasks/Common-Utility-Tasks/Create%20and%20Delete%20a%20Scratch%20Org/)(Action :Delete)
 
-**Pipeline Trigger**<br><br>This pipeline need to be enabled only with PR triggers, CI triggers for pipeline should be disabled. Follow this&nbsp; documentation to enable this pipeline trigger using this [link](https://docs.microsoft.com/en-us/azure/devops/pipelines/build/triggers?view=azure-devops&amp;tabs=classic)
+**Pipeline Trigger**<br><br>This pipeline need to be enabled only with PR triggers, CI triggers for pipeline should be disabled. Follow this&nbsp; documentation to enable this PR trigger using this [link](https://docs.microsoft.com/en-us/azure/devops/pipelines/build/triggers?view=azure-devops&amp;tabs=classic)
 
 &nbsp;
