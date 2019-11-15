@@ -1,0 +1,49 @@
+---
+title: Promote an Unlocked Package
+category: Tasks
+order: 9
+---
+
+This task is used to promote an unlocked package to 'released' state before deploying it into a production org. You can read more about promoting a package to released status (here)[https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_dev2gp_create_pkg_ver_promote.htm]. It is recommended to utilize this taks in the 'Prod' stage in a release pipeline in most normal scenarios, where a tested package in the lower environment is ready to be deployed to production and the version number has to be frozen.
+
+
+**Task Snapshot**
+
+**![](/images/Install Unlocked Package.png){: width="853" height="726"}**
+
+**Task Version and Details**
+
+id: sfpwowerscript-promoteunlocked-task
+
+version: 1.4.0
+
+**Input Variables&nbsp; - Visual Designer Labels (Yaml variables)**
+
+* **Name of the package to be promoted(package)**
+
+  The name of the package that is to be promoted to the released state. This name does not have any signifcant value addition other than being just displayed in the task execution
+
+* **Package to be promoted from(packagepromotedfrom)**
+
+ This task has two options, 'BuildArtifact' or using a 'Custom'. If you specify BuildArtifact (when used in  a release pipeline with sfpowerscript build artifact),specify the attached build artifact in the Artifact input parameter. If it custom option is selected, pass  in the package version id
+
+* **Alias/username of the DevHub (devhub\_alias)**
+
+ Provide the alias of the devhub previously authenticated, default value is HubOrg if using the Authenticate Org task
+
+
+**Output Variables**
+
+None
+
+**Control Options**
+
+None
+
+**Gotcha's**
+
+None
+
+**Changelog**
+
+1.4.0 Initial Version
