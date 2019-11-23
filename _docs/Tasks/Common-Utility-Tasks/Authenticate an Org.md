@@ -8,7 +8,7 @@ This task is used to authenticate against a salesforce org to do the required fu
 
 To read more about JWT based authentication and to generate the private key files, please follow the instruction&nbsp;[here](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_auth_jwt_flow.htm).
 
-**Please note an earlier version of this task with the exact functionality is now deprecated at 3.0.0, Please utilize a newer version of this task with updated id for the same functionality. The task name is "Authenticate a Salesforce Org3"**
+**Please note an earlier version of this task with the exact functionality is now deprecated at 3.0.0, Please utilize a newer version of this task with updated id for the same functionality. The task name is "Authenticate a Salesforce Org"**
 
 **Task Snapshot**
 
