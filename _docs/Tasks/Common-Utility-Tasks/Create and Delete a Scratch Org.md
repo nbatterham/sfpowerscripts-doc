@@ -6,15 +6,17 @@ order: 3
 
 This task is used to create and delete a scratch org and mostly used in a Pull Request validation pipeline. The task is an exact wrapper over the sfdx force:org:create command.
 
+**Please note an earlier version of this task with the exact functionality is now deprecated at 3.1.0, Please utilize a similar task with updated id for the same functionality. The task name remains the same**
+
 **Task Snapshot**
 
 **![](/images/Create or Delete a scratchorg.png){: width="832" height="519"}**
 
 **Task Version and Details**
 
-id: sfpower-managescratchorg
+id: sfpwowerscript-managescratchorg-task
 
-version: 2.1.0
+version: 3.1.0
 
 **Input Variables**
 
@@ -44,11 +46,11 @@ The root directory that contains the sfdx-project.json. In build pipelines you c
 
 * **sfpowerscripts\_scratch\_org\_url**
 
- The url of the scratch org that was created
+The url of the scratch org that was created
 
 * **sfpowerscripts\_scratch\_org\_username**
 
- The username of the scratch org that was created
+The username of the scratch org that was created
 
 **Control Options**
 
@@ -56,7 +58,8 @@ The root directory that contains the sfdx-project.json. In build pipelines you c
 
 Provide the repo path for the working directory in a releaase pipeline
 
-
 **Changelog**
 
-* 2.1.0 Initial Version
+* 3\.1.0 Updated task with a newer version id
+* 2\.1.0 Deprecated
+* 2\.1.0 Initial Version
