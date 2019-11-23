@@ -8,7 +8,7 @@ This task is usually the first task of any pipeline you build using sfpowerscrip
 
 Please note this task is only supported only in Linux agents
 
-**Please note an earlier version of this task with the exact functionality is now deprecated at 1.3.0, Please utilize a similar task with updated id for the same functionality. The task name is "Install SFDX CLI with SFPowerkit"**
+**Please note an earlier version of this task with the exact functionality is now deprecated at 1.3.0. Please utilize a newer version of this task with updated id for the same functionality. The task name is "Install SFDX CLI with SFPowerkit"**
 
 **Task Snapshot**
 
