@@ -14,7 +14,7 @@ This task is a thin wrapper over sfpowerkit:org:destruct ([link](https://github.
 
 id: sfpwowerscript-deploydestructivemanifest-task
 
-version: 1.4.0
+version: 1.7.0
 
 **Input Variables&nbsp; - Visual Designer Labels (Yaml variables)**
 
@@ -49,4 +49,4 @@ None
 
 **Changelog**
 
-* 1.4.0 Initial Version
+* 1.7.0 Initial Version
