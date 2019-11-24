@@ -14,7 +14,7 @@ This task is used to create a new version of a SFDX Unlocked Package. You can re
 
 id: sfpwowerscripts-createunlockedpackage-task
 
-version: 3.1.0
+version: 4.0.0
 
 **Input Variables&nbsp; - Visual Designer Labels (Yaml variables)**
 
@@ -29,6 +29,10 @@ version: 3.1.0
 * **Tag of the package version(tag)**
 
 The Tag of the package version to be created
+
+* **Enable generation of test coverage of this paritcular package(enable_coverage)**
+
+ Calculate and store the code coverage percentage by running the Apex tests included in this package version. 
 
 * **Config File Path(config\_file\_path)**
 
@@ -70,4 +74,5 @@ Please ensure a package is created manually before utilizing this task, as this 
 
 **Changelog**
 
-* 3\.1.0 Initial Version
+ * 4.0.0 Added Coverage Option
+ * 3.1.0 Initial Version
