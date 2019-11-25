@@ -86,6 +86,26 @@
 			</ul>
 
 			<ul>
+				{% assign grouped = site.docs | group_by: 'category' %}
+				{% for group in grouped %}
+				<li class="nav-item top-level {% if group.name == page.category %}current{% endif %}">
+					{% assign items = group.items | sort: 'order' %}
+					{% if group.name == "Pipelines" %}
+					<a href="{{ site.baseurl }}{{ items.first.url }}">{{ group.name }}</a>
+					{% endif %}
+					<ul>
+						{% for item in items %}
+						{% if item.category == "Pipelines" %}
+						<li class="nav-item {% if item.url == page.url %}current{% endif %}"><a
+								href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+						{% endif %}
+						{% endfor %}
+					</ul>
+				</li>
+				{% endfor %}
+			</ul>
+
+			<ul>
 				<li class="nav-item top-level {% if page.url == '/changelog/' %}current{% endif %}">
 					{% assign changelog = site.html_pages | where: 'url', '/changelog/' | first %}
 					<a href="{{ site.baseurl }}/changelog/">{{ changelog.title }}</a>
