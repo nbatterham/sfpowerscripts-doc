@@ -113,6 +113,15 @@
 				{% endfor %}
 			</ul>
 		</nav>
+
+		
+		<ul>
+			<li class="nav-item top-level {% if page.url == '/support/' %}current{% endif %}">
+				{% assign support = site.html_pages | where: 'url', '/support/' | first %}
+				<a href="{{ site.baseurl }}/support/">{{ support.title }}</a>
+			</li>
+		</ul>
+
 	</header>
 
 	<section class="main">
