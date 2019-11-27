@@ -2,7 +2,7 @@
 title: Support
 ---
 
-SFPowerscript is being &nbsp;actively maintained project with multiple implementations using these task to automate Salesforce Deployments daily.
+SFPowerscript is an actively maintained open source project with multiple implementations utilizing these task to automate Salesforce Deployments daily. Reach out to the sfpowerscript community using the below channels for resolution of issues, influencing roadmap and your contributions.
 
 You can use the following channels to reach out in case of any issues.
 
