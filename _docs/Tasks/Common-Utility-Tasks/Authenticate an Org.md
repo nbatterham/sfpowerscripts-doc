@@ -18,7 +18,7 @@ To read more about JWT based authentication and to generate the private key file
 
 id: sfpwowerscript-authenticateorg-task
 
-version: 4.1.0
+version: 5.1.1
 
 **Input Variables \[Visual Designer Labels / Yaml variables\]**
 
@@ -68,6 +68,7 @@ JWT based authentication is the preferred approach and it is intendended for CI/
 
 **Changelog**
 
-* 4\.1.0 New version with updated id
-* 3\.0.0 Deprecated Version
-* 3\.0.0 Initial Version
+* 5.1.1 Updated with Telemetry
+* 4.1.0 New version with updated id
+* 3.0.0 Deprecated Version
+* 3.0.0 Initial Version

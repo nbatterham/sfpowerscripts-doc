@@ -14,7 +14,7 @@ This task is used to create a build artifact for a source based repo (org deploy
 
 id: sfpwowerscripts-createsourcepackage-task
 
-version: 4.0.0
+version: 5.0.1
 
 **Input Variables&nbsp; - Visual Designer Labels (Yaml variables)**
 
@@ -44,4 +44,5 @@ None
 
 **Changelog**
 
-* 4\.0.0 Initial Version
+* 5.0.1 Updated with Telemetry
+* 4.0.0 Initial Version

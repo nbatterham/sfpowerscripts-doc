@@ -14,7 +14,7 @@ This task is a wrapper over sfpowerkit:package:dependencies:install command. It 
 
 id: sfpowerscript-installpackagedependencies-task
 
-version: 1.2.0
+version: 2.0.1
 
 **Input Variables&nbsp; - Visual Designer Labels (Yaml variables)**
 
@@ -56,4 +56,5 @@ None
 
 **Changelog**
 
-* 2\.8.0 Initial Version
+* 2.0.1 Updated with Telemetry
+* 1.8.0 Initial Version

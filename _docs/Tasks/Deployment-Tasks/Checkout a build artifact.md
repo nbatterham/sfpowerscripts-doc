@@ -14,7 +14,7 @@ This task is used to checkout the code to a particular commit id from a GIT repo
 
 id: sfpwowerscript-checkoutprojectfromartifact-task
 
-version: 4.0.0
+version: 5.0.1
 
 **Input Variables&nbsp; - Visual Designer Labels (Yaml variables)**
 
@@ -46,4 +46,6 @@ None
 
 **Changelog**
 
-* 2\.8.0 Initial Version
+* 5.0.1 Updated with Telemetry
+* 4.8.0 Minor Improvements
+* 2.8.0 Initial Version

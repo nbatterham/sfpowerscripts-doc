@@ -21,4 +21,5 @@ This task is used to validate the metadata coverage of components that are part 
 
 **Changelog**
 
-- 2.0.0  Updated for inclusion of bypass option from sfpowerkit
+- 2.0.1 Updated with Telemetry
+- 1.0.0  Updated for inclusion of bypass option from sfpowerkit

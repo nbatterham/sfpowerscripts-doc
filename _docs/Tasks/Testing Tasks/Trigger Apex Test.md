@@ -14,7 +14,7 @@ This task is used to trigger apex tests in an org
 
 id: sfpwowerscript-triggerapextest-task
 
-version: 1.1.0
+version: 2.0.1
 
 **Input Variables&nbsp; - Visual Designer Labels (Yaml variables)**
 
@@ -41,4 +41,5 @@ None
 
 **Changelog**
 
-* 1\.1.0 Initial Version
+* 2.0.1 Updated with Telemetry
+* 1.1.0 Initial Version

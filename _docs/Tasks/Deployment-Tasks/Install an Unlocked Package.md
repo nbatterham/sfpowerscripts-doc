@@ -14,7 +14,7 @@ This task is a thin wrapper over sfdx force:package:install [command](https://de
 
 id: sfpwowerscript-installunlockedpackage-task
 
-version: 4.1.0
+version: 5.0.1
 
 **Input Variables&nbsp; - Visual Designer Labels (Yaml variables)**
 
@@ -76,4 +76,5 @@ None
 
 **Changelog**
 
-* 4\.1.0 Initial Version
+* 5.0.1 Updated with Telemetry
+* 4.1.0 Initial Version

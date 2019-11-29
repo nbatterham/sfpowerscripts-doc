@@ -18,7 +18,7 @@ Please note this task is only supported only in Linux agents
 
 id: sfpwowerscript-installsfdx-task
 
-version: 2.0.0
+version: 3.2.1
 
 **Input Variables \[Visual Designer Labels / Yaml variables\]**
 
@@ -42,6 +42,7 @@ None
 
 **Changelog**
 
-* 2\.0.0 Task updated with new id
-* 1\.3.0 Deprecated the task&nbsp;
-* 1\.2.0 Initial Version
+* 3.2.1 Updated with Telemetry
+* 2.0.0 Task updated with new id
+* 1.3.0 Deprecated the task&nbsp;
+* 1.2.0 Initial Version

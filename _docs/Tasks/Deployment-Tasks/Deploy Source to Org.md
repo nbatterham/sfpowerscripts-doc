@@ -20,7 +20,7 @@ You can read about mdapi:deploy command [here](https://developer.salesforce.com/
 
 id: sfpowerscript-deploysourcetoorg-task
 
-version: 2.8.0
+version: 3.0.1
 
 **Input Variables&nbsp; - Visual Designer Labels (Yaml variables)**
 
@@ -68,4 +68,5 @@ None
 
 **Changelog**
 
-* 2\.8.0 Initial Version
+* 3.0.1 Updated with Telemetry
+* 2.8.0 Initial Version

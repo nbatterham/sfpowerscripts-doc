@@ -14,7 +14,7 @@ This task is used to create a new version of a SFDX Unlocked Package. You can re
 
 id: sfpwowerscripts-createunlockedpackage-task
 
-version: 4.0.0
+version: 5.0.1
 
 **Input Variables&nbsp; - Visual Designer Labels (Yaml variables)**
 
@@ -74,5 +74,6 @@ Please ensure a package is created manually before utilizing this task, as this 
 
 **Changelog**
 
+ * 5.0.1 Updated with Telemetry
  * 4.0.0 Added Coverage Option
  * 3.1.0 Initial Version

@@ -22,7 +22,7 @@ This task attaches the code analysis result into the build artifacts and also pr
 
 id: sfpwowerscripts-analyzewithpmd-task
 
-version: 2.1.0
+version: 4.0.1
 
 **Input Variables**
 
@@ -62,4 +62,5 @@ Select this option if you want the build to be failed, if PMD observes any criti
 
 **Changelog**
 
-* 3\.1.0 Initial Version
+* 4.0.1 Updated with Telemetry
+* 3.1.0 Initial Version

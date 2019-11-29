@@ -14,7 +14,7 @@ This task is used to promote an unlocked package to 'released' state before depl
 
 id: sfpwowerscript-promoteunlocked-task
 
-version: 1.6.0
+version: 2.0.1
 
 **Input Variables&nbsp; - Visual Designer Labels (Yaml variables)**
 
@@ -44,4 +44,5 @@ None
 
 **Changelog**
 
-1\.6.0 Initial Version
+* 2.0.1 Updated with Telemetry
+* 1.6.0 Initial Version

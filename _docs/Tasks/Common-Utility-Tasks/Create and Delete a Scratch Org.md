@@ -16,7 +16,7 @@ This task is used to create and delete a scratch org and mostly used in a Pull R
 
 id: sfpwowerscript-managescratchorg-task
 
-version: 3.1.0
+version: 4.1.1
 
 **Input Variables**
 
@@ -60,6 +60,7 @@ Provide the repo path for the working directory in a releaase pipeline
 
 **Changelog**
 
-* 3\.1.0 Updated task with a newer version id
-* 2\.1.0 Deprecated
-* 2\.1.0 Initial Version
+* 4.1.1 Updated with Telemetry
+* 3.1.0 Updated task with a newer version id
+* 2.1.0 Deprecated
+* 2.1.0 Initial Version

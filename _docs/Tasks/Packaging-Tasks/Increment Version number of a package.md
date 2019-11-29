@@ -16,7 +16,7 @@ This task is used to increment the version number of the package version provide
 
 id: sfpwowerscript-incrementversionnumber-task
 
-version: 1.9.0
+version: 2.0.2
 
 **Input Variables&nbsp; - Visual Designer Labels (Yaml variables)**
 
@@ -56,4 +56,5 @@ None
 
 **Changelog**
 
-* 1\.9.0 Initial Version
+* 2.0.2 Updated with Telemetry
+* 1.9.0 Initial Version
