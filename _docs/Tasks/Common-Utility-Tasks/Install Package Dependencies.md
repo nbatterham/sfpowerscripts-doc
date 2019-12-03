@@ -6,6 +6,10 @@ order: 5
 
 This task is a wrapper over sfpowerkit:package:dependencies:install command. It is used to install any unlocked or managed package dependencies for an unlocked package
 
+**Prerequisites**
+
+Please&nbsp; note [Install SFDX with Sfpowerkit&nbsp;](/Tasks/Common-Utility-Tasks/Install%20SFDX%20CLI/)task is added to the pipeline before utilizing this task
+
 **Task Snapshot**
 
 **![](/images/Install Package Dependencies.png){: width="822" height="501"}**
@@ -56,5 +60,5 @@ None
 
 **Changelog**
 
-* 2.0.1 Updated with Telemetry
-* 1.8.0 Initial Version
+* 2\.0.1 Updated with Telemetry
+* 1\.8.0 Initial Version
