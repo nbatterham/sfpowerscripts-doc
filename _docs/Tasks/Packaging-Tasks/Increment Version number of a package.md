@@ -1,7 +1,6 @@
 ---
 title: Increment Version Number of a package
-category: Tasks
-subcategory: Packaging Tasks
+category: Packaging Tasks
 order: 8
 ---
 

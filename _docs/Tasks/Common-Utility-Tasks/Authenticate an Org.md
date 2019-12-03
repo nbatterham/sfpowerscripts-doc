@@ -1,7 +1,6 @@
 ---
 title: Authenticate an Org
-category: Tasks
-subcategory: Elementary \ Utility Tasks
+category: Common \ Utility Tasks
 order: 2
 ---
 

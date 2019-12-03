@@ -1,8 +1,8 @@
 ---
 title: Install an Unlocked Package to an org
-category: Tasks
+category: Deployment Tasks
 subcategory: Deployment Tasks
-order: 12
+order: 14
 ---
 
 This task is a thin wrapper over sfdx force:package:install [command](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference_force_package.htm) with a helpful function to directly apply a build artifact built using Create SFDX Unlocked Package Task. This task is meant to be used in Release Pipeline

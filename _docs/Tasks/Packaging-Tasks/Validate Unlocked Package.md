@@ -1,8 +1,7 @@
 ---
 title: Validate Unlocked Package for Metadata Coverage
-category: Tasks
-subcategory: Elementary \ Utility Tasks
-order: 4
+category: Packaging Tasks
+order: 9
 ---
 
 This task is used to validate the metadata coverage of components that are part of the unlocked package you are building. Typically there are components in normal development that are not covered by unlocked packaging such as settings. Having this metadata in your project directory results either these metadata to be skipped or results in an error during the time of packaging. This task checks whether the source directory has any such issues.

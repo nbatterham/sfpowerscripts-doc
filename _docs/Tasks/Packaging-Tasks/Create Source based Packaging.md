@@ -1,8 +1,7 @@
 ---
 title: Create Source based Package 
-category: Tasks
-subcategory: Packaging Tasks
-order: 7
+category: Packaging Tasks
+order: 11
 ---
 
 This task is used to create a build artifact for a source based repo (org deployment), which can then be associated with a release pipeline.

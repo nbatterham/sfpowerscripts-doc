@@ -1,8 +1,8 @@
 ---
 title: Deploy Destructive Maifest to an org
-category: Tasks
+category: Deployment Tasks
 subcategory: Deployment Tasks
-order: 13
+order: 16
 ---
 
 This task is a thin wrapper over sfpowerkit:org:destruct ([link](https://github.com/Accenture/sfpowerkit)). Typically, destructive manifest are deployed as a seperate pipeline in Org based development model. This task helps one to build a pipeline
