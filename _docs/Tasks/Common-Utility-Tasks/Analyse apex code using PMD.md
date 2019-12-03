@@ -6,6 +6,10 @@ order: 5
 
 This task is used to run a static analyis of the apex classes in a project directory using PMD. This is a task execution wrapper around the command sfpowerkit:source:pmd which you can read [here](https://github.com/Accenture/sfpowerkit)
 
+**Prerequisites**
+
+Please&nbsp; note [Install SFDX with Sfpowerkit&nbsp;](/Tasks/Common-Utility-Tasks/Install%20SFDX%20CLI/)task is added to the pipeline before utilizing this task
+
 **Task Snapshot**
 
 **![](/images/Analyze apex classes using pmd .png){: width="929" height="587"}**
@@ -62,5 +66,5 @@ Select this option if you want the build to be failed, if PMD observes any criti
 
 **Changelog**
 
-* 4.0.1 Updated with Telemetry
-* 3.1.0 Initial Version
+* 4\.0.1 Updated with Telemetry
+* 3\.1.0 Initial Version
