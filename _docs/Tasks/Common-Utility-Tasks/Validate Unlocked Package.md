@@ -8,7 +8,7 @@ This task is used to validate the metadata coverage of components that are part 
 
 **Prerequisites**
 
-Please&nbsp; note [Install SFDX with Sfpowerkit&nbsp;](/Tasks/Common-Utility-Tasks/Install%20SFDX%20CLI/)task is added to the pipeline before utilizing this task
+Please note [Install SFDX with Sfpowerkit](/Tasks/Common-Utility-Tasks/Install%20SFDX%20CLI/) task is added to the pipeline before utilizing this task
 
 **Task Options**
 

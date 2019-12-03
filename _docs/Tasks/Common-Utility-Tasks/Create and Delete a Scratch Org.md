@@ -11,7 +11,7 @@ This task is used to create and delete a scratch org and mostly used in a Pull R
 
 **Prerequisites**
 
-Please note [Install SFDX with Sfpowerkit](/Tasks/Common-Utility-Tasks/Install%20SFDX%20CLI/)task is added to the pipeline before utilizing this task
+Please note [Install SFDX with Sfpowerkit](/Tasks/Common-Utility-Tasks/Install%20SFDX%20CLI/) task is added to the pipeline before utilizing this task
 
 
 **Task Snapshot**

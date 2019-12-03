@@ -8,7 +8,7 @@ This task is a thin wrapper over sfdx force:package:install [command](https://de
 
 **Prerequisites**
 
-Please note [Install SFDX with Sfpowerkit](/Tasks/Common-Utility-Tasks/Install%20SFDX%20CLI/)task is added to the pipeline before utilizing this task
+Please note [Install SFDX with Sfpowerkit](/Tasks/Common-Utility-Tasks/Install%20SFDX%20CLI/) task is added to the pipeline before utilizing this task
 
 
 **Task Snapshot**

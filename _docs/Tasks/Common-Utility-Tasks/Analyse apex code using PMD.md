@@ -8,7 +8,7 @@ This task is used to run a static analyis of the apex classes in a project direc
 
 **Prerequisites**
 
-Please&nbsp; note [Install SFDX with Sfpowerkit&nbsp;](/Tasks/Common-Utility-Tasks/Install%20SFDX%20CLI/)task is added to the pipeline before utilizing this task
+Please&nbsp; note [Install SFDX with Sfpowerkit&nbsp;](/Tasks/Common-Utility-Tasks/Install%20SFDX%20CLI/) task is added to the pipeline before utilizing this task
 
 **Task Snapshot**
 

@@ -14,7 +14,7 @@ You can read about mdapi:deploy command [here](https://developer.salesforce.com/
 
 **Prerequisites**
 
-Please note [Install SFDX with Sfpowerkit](/Tasks/Common-Utility-Tasks/Install%20SFDX%20CLI/)task is added to the pipeline before utilizing this task
+Please note [Install SFDX with Sfpowerkit](/Tasks/Common-Utility-Tasks/Install%20SFDX%20CLI/) task is added to the pipeline before utilizing this task
 
 
 **Task Snapshot**
