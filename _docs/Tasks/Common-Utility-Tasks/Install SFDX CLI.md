@@ -1,7 +1,7 @@
 ---
 title: Install SFDX CLI and SFPowerkit
 category: Tasks
-subcategory: Utility Tasks
+subcategory: Elementary \ Utility Tasks
 order: 1
 ---
 
