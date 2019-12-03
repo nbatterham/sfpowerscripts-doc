@@ -1,6 +1,7 @@
 ---
 title: Deploy a Source Repo to Org
 category: Tasks
+subcategory: Deployment Tasks
 order: 11
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Authenticate an Org
 category: Tasks
+subcategory: Utility Tasks
 order: 2
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Create/Delete a Scratch Org
 category: Tasks
+subcategory: Utility Tasks
 order: 3
 ---
 

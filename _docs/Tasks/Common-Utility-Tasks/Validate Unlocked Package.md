@@ -1,6 +1,7 @@
 ---
 title: Validate Unlocked Package for Metadata Coverage
 category: Tasks
+subcategory: Utility Tasks
 order: 4
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Promote an Unlocked Package
 category: Tasks
+subcategory: Packaging Tasks
 order: 9
 ---
 

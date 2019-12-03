@@ -1,6 +1,7 @@
 ---
 title: Install an Unlocked Package to an org
 category: Tasks
+subcategory: Deployment Tasks
 order: 12
 ---
 

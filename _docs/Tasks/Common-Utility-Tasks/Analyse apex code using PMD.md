@@ -1,6 +1,7 @@
 ---
 title: Run a static analysis of apex classes with PMD
 category: Tasks
+subcategory: Utility Tasks
 order: 5
 ---
 

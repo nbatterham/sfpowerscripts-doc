@@ -1,14 +1,12 @@
 ---
 title: Create Source based Package 
 category: Tasks
+subcategory: Packaging Tasks
 order: 7
 ---
 
 This task is used to create a build artifact for a source based repo (org deployment), which can then be associated with a release pipeline.
 
-**Prerequisites**
-
-Please note [Install SFDX with Sfpowerkit](/Tasks/Common-Utility-Tasks/Install%20SFDX%20CLI/)task is added to the pipeline before utilizing this task
 
 
 **Task Snapshot**

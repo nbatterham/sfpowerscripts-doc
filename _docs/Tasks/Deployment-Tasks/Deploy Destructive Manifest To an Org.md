@@ -1,6 +1,7 @@
 ---
 title: Deploy Destructive Maifest to an org
 category: Tasks
+subcategory: Deployment Tasks
 order: 13
 ---
 

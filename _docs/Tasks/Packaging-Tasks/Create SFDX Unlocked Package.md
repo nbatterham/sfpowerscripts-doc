@@ -1,6 +1,7 @@
 ---
 title: Create a new version of SFDX Unlocked Package 
 category: Tasks
+subcategory: Packaging Tasks
 order: 6
 ---
 

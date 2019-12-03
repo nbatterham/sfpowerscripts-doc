@@ -1,6 +1,7 @@
 ---
 title: Checkout a build artifact
 category: Tasks
+subcategory: Deployment Tasks
 order: 10
 ---
 

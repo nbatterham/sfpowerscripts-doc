@@ -1,6 +1,7 @@
 ---
 title: Install Package Dependencies
 category: Tasks
+subcategory: Utility Tasks
 order: 5
 ---
 
