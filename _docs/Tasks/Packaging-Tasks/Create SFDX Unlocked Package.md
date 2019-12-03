@@ -6,6 +6,11 @@ order: 6
 
 This task is used to create a new version of a SFDX Unlocked Package. You can read more about unlocked packages [here](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_dev2gp.htm)
 
+**Prerequisites**
+
+Please note [Install SFDX with Sfpowerkit](/Tasks/Common-Utility-Tasks/Install%20SFDX%20CLI/)task is added to the pipeline before utilizing this task
+
+
 **Task Snapshot**
 
 **![](/images/Create a new version of SFDX Package .png){: width="852" height="768"}**

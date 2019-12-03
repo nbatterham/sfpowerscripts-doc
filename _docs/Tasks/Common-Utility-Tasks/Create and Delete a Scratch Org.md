@@ -6,7 +6,13 @@ order: 3
 
 This task is used to create and delete a scratch org and mostly used in a Pull Request validation pipeline. The task is an exact wrapper over the sfdx force:org:create command.
 
+
 **Please note an earlier version of this task with the exact functionality is now deprecated at 3.1.0, Please utilize a newer version of this task with updated id for the same functionality. The task name remains the same**
+
+**Prerequisites**
+
+Please note [Install SFDX with Sfpowerkit](/Tasks/Common-Utility-Tasks/Install%20SFDX%20CLI/)task is added to the pipeline before utilizing this task
+
 
 **Task Snapshot**
 

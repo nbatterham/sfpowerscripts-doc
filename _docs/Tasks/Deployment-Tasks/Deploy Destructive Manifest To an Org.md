@@ -6,6 +6,11 @@ order: 13
 
 This task is a thin wrapper over sfpowerkit:org:destruct ([link](https://github.com/Accenture/sfpowerkit)). Typically, destructive manifest are deployed as a seperate pipeline in Org based development model. This task helps one to build a pipeline
 
+**Prerequisites**
+
+Please note [Install SFDX with Sfpowerkit](/Tasks/Common-Utility-Tasks/Install%20SFDX%20CLI/)task is added to the pipeline before utilizing this task
+
+
 **Task Snapshot**
 
 ![](/uploads/deploy-destructive-manifest-to-org.PNG){: width="800" height="400"}

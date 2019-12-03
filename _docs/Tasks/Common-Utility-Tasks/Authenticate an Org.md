@@ -10,6 +10,11 @@ To read more about JWT based authentication and to generate the private key file
 
 **Please note an earlier version of this task with the exact functionality is now deprecated at 3.0.0, Please utilize a newer version of this task with updated id for the same functionality. The task name is "Authenticate a Salesforce Org"**
 
+**Prerequisites**
+
+Please note [Install SFDX with Sfpowerkit](/Tasks/Common-Utility-Tasks/Install%20SFDX%20CLI/)task is added to the pipeline before utilizing this task
+
+
 **Task Snapshot**
 
 ![](/images/Authenticate a Salesforce Org.png){: width="951" height="629"} ![](/images/Authenticate a Salesforce Org using JWT.png){: width="951" height="629"} ![](/images/Authenticate a Salesforce Org using Credentials.png){: width="951" height="629"}

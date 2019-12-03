@@ -6,6 +6,11 @@ order: 12
 
 This task is a thin wrapper over sfdx force:package:install [command](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference_force_package.htm) with a helpful function to directly apply a build artifact built using Create SFDX Unlocked Package Task. This task is meant to be used in Release Pipeline
 
+**Prerequisites**
+
+Please note [Install SFDX with Sfpowerkit](/Tasks/Common-Utility-Tasks/Install%20SFDX%20CLI/)task is added to the pipeline before utilizing this task
+
+
 **Task Snapshot**
 
 **![](/images/Install Unlocked Package.png){: width="853" height="726"}**
