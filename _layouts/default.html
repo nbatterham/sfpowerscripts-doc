@@ -66,17 +66,39 @@
 			</ul>
 
 			<ul>
+					{% assign grouped = site.docs | group_by: 'category' %}
+					{% for group in grouped %}
+					<li class="nav-item top-level {% if group.name == page.category %}current{% endif %}">
+						{% assign items = group.items | sort: 'order' %}
+						{% if group.name == "FAQ" %}
+						<a href="{{ site.baseurl }}{{ items.first.url }}">{{ group.name }}</a>
+						{% endif %}
+						<ul>
+	
+							{% for item in items %}
+							{% if group.name == "FAQ" %}
+							<li class="nav-item {% if item.url == page.url %}current{% endif %}"><a
+									href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+							{% endif %}
+							{% endfor %}
+						</ul>
+					</li>
+					{% endfor %}
+				</ul>
+	
+
+			<ul>
 				{% assign grouped = site.docs |   sort: 'order' | group_by: 'category' %}
 				{% for group in grouped %}
 				<li class="nav-item top-level {% if group.name == page.category %}current{% endif %}">
 					{% assign items = group.items | sort: 'order' %}
-					{% if group.name != "Pipelines" %}
+					{% if group.name != "Pipelines" and group.name != "FAQ" %}
 					<a href="{{ site.baseurl }}{{ items.first.url }}">{{ group.name }}</a>
 					{% endif %}
 					<ul>
 
 						{% for item in items %}
-						{% if group.name != "Pipelines" %}
+						{% if group.name != "Pipelines" and group.name != "FAQ" %}
 						<li class="nav-item {% if item.url == page.url %}current{% endif %}"><a
 								href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
 						{% endif %}
