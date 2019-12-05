@@ -1,5 +1,5 @@
 ---
-title: Install SFDX CLI and SFPowerkit
+title: Install SFDX CLI with SFPowerkit
 category: Common \ Utility Tasks
 order: 1
 ---
