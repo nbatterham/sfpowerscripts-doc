@@ -27,18 +27,18 @@ version: 6.0.0
 
   * **GitHub Connection(github\_connection)**
 
-  ~~~
+  
   Select the corresponding Github service connection from the dropdown (in the classic mode) or set the variable with appropriate connection name if used in a Yaml pipeline. Read more instruction on using connectedService [here](https://docs.microsoft.com/en-us/azure/devops/pipelines/library/service-endpoints?view=azure-devops&tabs=yaml)
 
   * **GitHub Enterprise Connection(github_enterprise_connection)**
 
   Select the corresponding Github Enterprise service connection from the dropdown (in the classic mode) or set the variable with appropriate connection name if used in a Yaml pipeline. Read more instruction on using connectedService [here](https://docs.microsoft.com/en-us/azure/devops/pipelines/library/service-endpoints?view=azure-devops&tabs=yaml)
-  ~~~
+  
   * **Bitbucket Connection(bitbucket\_connection)**
 
-  ~~~
+  
   Select the corresponding Bitbucket cloud service connection from the dropdown (in the classic mode) or set the variable with appropriate connection name if used in a Yaml pipeline. Read more instruction on using connectedService [here](https://docs.microsoft.com/en-us/azure/devops/pipelines/library/service-endpoints?view=azure-devops&tabs=yaml)
-  ~~~
+  
   * **Azure Repo (azureRepo)**
 
   ~~~
