@@ -41,11 +41,13 @@ version: 6.0.0
   
   * **Azure Repo (azureRepo)**
 
-  ~~~
+  
   If azure Repo is selected, the agent has to have the setting 'Allow Script to access OAuth Token' activated in the Agent Job settings, so that  the task can access $(System.AccessToken) Variable and checkout the code
-  ~~~
+  
 
-  `Other Git (otherGit)`<br>`If your repo is none of the above, then utilize this selection to pass in the username/password for a basic authentication schema to checkout the corresponding code. If this mode is selected please fill in Username (username) and Password (password) to checkout the repository`
+  * **Other Git (otherGit)**
+  
+  If your repo is none of the above, then utilize this selection to pass in the username/password for a basic authentication schema to checkout the corresponding code. If this mode is selected please fill in Username (username) and Password (password) to checkout the repository`
 
 * ![](/images/Checkout source from a build artifact_agent_password.PNG){: width="997" height="642"}
 
