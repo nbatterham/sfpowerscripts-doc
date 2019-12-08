@@ -27,27 +27,23 @@ version: 6.0.0
 
   * **GitHub Connection(github\_connection)**
 
-  
-  Select the corresponding Github service connection from the dropdown (in the classic mode) or set the variable with appropriate connection name if used in a Yaml pipeline. Read more instruction on using connectedService [here](https://docs.microsoft.com/en-us/azure/devops/pipelines/library/service-endpoints?view=azure-devops&tabs=yaml)
+  Select the corresponding Github service connection from the dropdown (in the classic mode) or set the variable with appropriate connection name if used in a Yaml pipeline. Read more instruction on using connectedService [here](https://docs.microsoft.com/en-us/azure/devops/pipelines/library/service-endpoints?view=azure-devops&amp;tabs=yaml)
 
-  * **GitHub Enterprise Connection(github_enterprise_connection)**
+  * **GitHub Enterprise Connection(github\_enterprise\_connection)**
 
-  Select the corresponding Github Enterprise service connection from the dropdown (in the classic mode) or set the variable with appropriate connection name if used in a Yaml pipeline. Read more instruction on using connectedService [here](https://docs.microsoft.com/en-us/azure/devops/pipelines/library/service-endpoints?view=azure-devops&tabs=yaml)
-  
+  Select the corresponding Github Enterprise service connection from the dropdown (in the classic mode) or set the variable with appropriate connection name if used in a Yaml pipeline. Read more instruction on using connectedService [here](https://docs.microsoft.com/en-us/azure/devops/pipelines/library/service-endpoints?view=azure-devops&amp;tabs=yaml)
+
   * **Bitbucket Connection(bitbucket\_connection)**
 
-  
-  Select the corresponding Bitbucket cloud service connection from the dropdown (in the classic mode) or set the variable with appropriate connection name if used in a Yaml pipeline. Read more instruction on using connectedService [here](https://docs.microsoft.com/en-us/azure/devops/pipelines/library/service-endpoints?view=azure-devops&tabs=yaml)
-  
+  Select the corresponding Bitbucket cloud service connection from the dropdown (in the classic mode) or set the variable with appropriate connection name if used in a Yaml pipeline. Read more instruction on using connectedService [here](https://docs.microsoft.com/en-us/azure/devops/pipelines/library/service-endpoints?view=azure-devops&amp;tabs=yaml)
+
   * **Azure Repo (azureRepo)**
 
-  
-  If azure Repo is selected, the agent has to have the setting 'Allow Script to access OAuth Token' activated in the Agent Job settings, so that  the task can access $(System.AccessToken) Variable and checkout the code
-  
+  If azure Repo is selected, the agent has to have the setting 'Allow Script to access OAuth Token' activated in the Agent Job settings, so that the task can access $(System.AccessToken) Variable and checkout the code<br><br>![](/images/Checkout source from a build artifact_agent_additional_option.png){: width="962" height="662"}
 
   * **Other Git (otherGit)**
-  
-  If your repo is none of the above, then utilize this selection to pass in the username/password for a basic authentication schema to checkout the corresponding code. If this mode is selected please fill in Username (username) and Password (password) to checkout the repository`
+
+  If your repo is none of the above, then utilize this selection to pass in the username/password for a basic authentication schema to checkout the corresponding code. If this mode is selected please fill in Username (username) and Password (password) to checkout the repository\`
 
 * ![](/images/Checkout source from a build artifact_agent_password.PNG){: width="997" height="642"}
 
@@ -57,9 +53,9 @@ version: 6.0.0
 
 **Output Variables**
 
-* **sfpowerkit\_deploysource\_id**
+* sfpowerscripts\_checked\_out\_path
 
-None
+The path to the directory where the source code is checked out
 
 **Control Options**
 
