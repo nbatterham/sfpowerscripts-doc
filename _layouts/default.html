@@ -118,8 +118,15 @@
 
 			<ul>
 				<li class="nav-item top-level {% if page.url == '/contributing/' %}current{% endif %}">
-					{% assign support = site.html_pages | where: 'url', '/contributing/' | first %}
-					<a href="{{ site.baseurl }}/contributing/">{{ support.title }}</a>
+					{% assign contributing = site.html_pages | where: 'url', '/contributing/' | first %}
+					<a href="{{ site.baseurl }}/contributing/">{{ contributing.title }}</a>
+				</li>
+			</ul>
+
+			<ul>
+				<li class="nav-item top-level {% if page.url == '/maintainers/' %}current{% endif %}">
+					{% assign maintainers = site.html_pages | where: 'url', '/maintainers/' | first %}
+					<a href="{{ site.baseurl }}/maintainers/">{{ maintainers.title }}</a>
 				</li>
 			</ul>
 
