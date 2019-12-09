@@ -65,7 +65,7 @@
 				</li>
 			</ul>
 
-	
+
 
 			<ul>
 				{% assign grouped = site.docs |   sort: 'order' | group_by: 'category' %}
@@ -115,15 +115,21 @@
 					<a href="{{ site.baseurl }}/changelog/">{{ changelog.title }}</a>
 				</li>
 			</ul>
-		
 
-		<ul>
-			<li class="nav-item top-level {% if page.url == '/support/' %}current{% endif %}">
-				{% assign support = site.html_pages | where: 'url', '/support/' | first %}
-				<a href="{{ site.baseurl }}/support/">{{ support.title }}</a>
-			</li>
-		</ul>
-	</nav>
+			<ul>
+				<li class="nav-item top-level {% if page.url == '/contributing/' %}current{% endif %}">
+					{% assign support = site.html_pages | where: 'url', '/contributing/' | first %}
+					<a href="{{ site.baseurl }}/contributing/">{{ support.title }}</a>
+				</li>
+			</ul>
+
+			<ul>
+				<li class="nav-item top-level {% if page.url == '/support/' %}current{% endif %}">
+					{% assign support = site.html_pages | where: 'url', '/support/' | first %}
+					<a href="{{ site.baseurl }}/support/">{{ support.title }}</a>
+				</li>
+			</ul>
+		</nav>
 	</header>
 
 	<section class="main">
