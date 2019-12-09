@@ -4,7 +4,7 @@ title: Maintainers
 
 ## Azlam Abdulsalam
 
-[<img src="/uploads/linkedin-icon-81.png">](http://google.com.au/)
+[![](/uploads/linkedin-icon-81.png)](http://google.com.au/)
 
 ![](/uploads/linkedin-icon-81.png){: width="40" height="40"}
 
