@@ -1,5 +1,5 @@
 ---
-title: Validate Code Coverage of 2GP Package
+title: Validate Code Coverage of a Package
 category: Testing Tasks
 order: 8
 ---
