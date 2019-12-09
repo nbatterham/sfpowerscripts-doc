@@ -10,7 +10,6 @@ This task is used to create a new version of a SFDX Unlocked Package. You can re
 
 Please note [Install SFDX with Sfpowerkit](/Tasks/Common-Utility-Tasks/Install%20SFDX%20CLI/) task is added to the pipeline before utilizing this task
 
-
 **Task Snapshot**
 
 **![](/images/Create a new version of SFDX Package .png){: width="852" height="768"}**
@@ -19,7 +18,7 @@ Please note [Install SFDX with Sfpowerkit](/Tasks/Common-Utility-Tasks/Install%2
 
 id: sfpwowerscripts-createunlockedpackage-task
 
-version: 5.0.1
+version: 5.1.2
 
 **Input Variables&nbsp; - Visual Designer Labels (Yaml variables)**
 
@@ -35,9 +34,9 @@ version: 5.0.1
 
 The Tag of the package version to be created
 
-* **Enable generation of test coverage of this paritcular package(enable_coverage)**
+* **Enable generation of test coverage of this paritcular package(enable\_coverage)**
 
- Calculate and store the code coverage percentage by running the Apex tests included in this package version. 
+Calculate and store the code coverage percentage by running the Apex tests included in this package version.
 
 * **Config File Path(config\_file\_path)**
 
@@ -79,6 +78,7 @@ Please ensure a package is created manually before utilizing this task, as this 
 
 **Changelog**
 
- * 5.0.1 Updated with Telemetry
- * 4.0.0 Added Coverage Option
- * 3.1.0 Initial Version
+* 5\.1.2 Hotfix for Exception bug
+* 5\.0.1 Updated with Telemetry
+* 4\.0.0 Added Coverage Option
+* 3\.1.0 Initial Version
