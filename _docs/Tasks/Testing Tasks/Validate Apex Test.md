@@ -1,6 +1,6 @@
 ---
 title: Validate Apex Test Coverage
-category: Testing Tasks
+category: Testing \ Code Quality Tasks
 order: 7
 ---
 

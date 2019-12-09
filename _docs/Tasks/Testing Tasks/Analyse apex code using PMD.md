@@ -1,6 +1,6 @@
 ---
 title: Run a static analysis of apex classes with PMD
-category: Common \ Utility Tasks
+category: Testing \ Code Quality Tasks
 order: 5
 ---
 
