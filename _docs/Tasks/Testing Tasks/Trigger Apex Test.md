@@ -1,6 +1,6 @@
 ---
 title: Trigger Apex Test
-category: Testing Tasks
+category: Testing \ Code Quality Tasks
 order: 6
 ---
 
@@ -9,7 +9,6 @@ This task is used to trigger apex tests in an org
 **Prerequisites**
 
 Please note [Install SFDX with Sfpowerkit](/Tasks/Common-Utility-Tasks/Install%20SFDX%20CLI/) task is added to the pipeline before utilizing this task
-
 
 **Task Snapshot**
 
@@ -46,5 +45,5 @@ None
 
 **Changelog**
 
-* 2.0.1 Updated with Telemetry
-* 1.1.0 Initial Version
+* 2\.0.1 Updated with Telemetry
+* 1\.1.0 Initial Version
