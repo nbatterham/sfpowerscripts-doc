@@ -2,7 +2,7 @@
 title: Overview
 ---
 
-SFPowerscripts is an Azure Pipelines Extension that converts Azure Pipelines into a CI/CD platform for Salesforce. The extension features the following tasks. You can read the documentation
+SFPowerscripts is an Azure Pipelines Extension that converts Azure Pipelines into a CI/CD platform for Salesforce. The extension features the following tasks. Install the plugin from [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=AzlamSalam.sfpowerscripts) and read the documentation on how to configure a highly customizable Salesforce CI/CD Pipeline.
 
 Please note this extension only works with the newer source format based repositories only and only works with Hosted Linux agent.
 
@@ -33,7 +33,7 @@ Please note this extension only works with the newer source format based reposit
 * Validate Apex Test Coverge of an org
 * Validate Code Coverage of a second generation package
 
-#### What is it?
+#### How does it work?
 
 * The extension is designed with tasks which are granular, which means all the above tasks has to be orchestrated in a valid order required to reach the required objective. This allows one to utilise other commands or extensions between the tasks and be highly effective rather than getting tied to a single task. This ensures maximum flexiblity while building the pipeline.
 
