@@ -14,7 +14,7 @@ The pipeline is manually triggered by some one releasing a previously build arti
 
 &nbsp;
 
-You can import and modify this pipeline using the file provide in the [link](https://raw.githubusercontent.com/azlamsalam/sfpowerscripts/master/SamplePipelines/Source%20Package%20Deployment%20Pipeline%20using%20sfpowerscripts.json)
+You can import and modify this pipeline using the file provide in the [link](https://raw.githubusercontent.com/azlamsalam/sfpowerscripts/master/SamplePipelines/sfpowerscripts-sample-pipelines/ReleaseDefinitions/Source%20Package%20Deployment%20Pipeline%20using%20sfpowerscripts.json)
 
 **Tasks Snapshot in one of the stages**
 
