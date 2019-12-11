@@ -2,7 +2,7 @@
 title: Overview
 ---
 
-SFPowerscripts is an Azure Pipelines Extension that converts Azure Pipelines into a CI/CD platform for Salesforce. The extension features the following tasks. Install the plugin from [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=AzlamSalam.sfpowerscripts) and read the documentation on how to configure a highly customizable Salesforce CI/CD Pipeline.
+SFPowerscripts is an open source and free Azure Pipelines Extension that converts Azure Pipelines into a CI/CD platform for Salesforce. The extension features the following tasks. Install the plugin from [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=AzlamSalam.sfpowerscripts) and read the documentation on how to configure a highly customizable Salesforce CI/CD Pipeline.
 
 Please note this extension only works with the newer source format based repositories only and only works with Hosted Linux agent.
 
