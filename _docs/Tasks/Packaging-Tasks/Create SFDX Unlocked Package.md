@@ -64,7 +64,7 @@ Calculate and store the code coverage percentage by running the Apex tests inclu
 
 **Output Variables**
 
-* **sfpowerkit\_package\_version\_id**
+* **sfpowerscript\_package\_version\_id**
 
 This variable holds the id of the package version. Use this package version to install it or use it for any other subsequent tasks
 
