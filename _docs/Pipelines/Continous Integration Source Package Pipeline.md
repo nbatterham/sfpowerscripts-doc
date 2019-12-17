@@ -1,7 +1,7 @@
 ---
 title: Continous Integration Pipeline - Org Based
 category: Pipelines
-order: 3
+order: 4
 ---
 
 This pipeline demonstrates how you can build a continous integration pipeline for if you are using&nbsp; an [org model of development](https://trailhead.salesforce.com/en/content/learn/modules/org-development-model)&nbsp; . Here is a snapshot of the steps we have used to configure a pipeline. The pipeline mimics creating a version number as in [Continous Integration (Unlocked Packaging) pipeline](/Pipelines/Continous%20Integration%20Unlocked%20Package%20Pipeline/) to simulate version based deployment in the release pipelines and create meaninguful dashboards

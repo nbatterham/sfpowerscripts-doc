@@ -1,7 +1,7 @@
 ---
 title: Continous Integration Pipeline - Unlocked Package
 category: Pipelines
-order: 2
+order: 3
 ---
 
 This pipeline demonstrates how you can build a continous integration pipeline for an unlocked package. Here is a snapshot of the steps we have used to configure a pipeline.
